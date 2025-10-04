@@ -1,0 +1,1050 @@
+import"./nav-BMz1p0aR.js";var e=`<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Ask Haugerud Hovik</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+
+@import "/node_modules/font-awesome/css/font-awesome.min.css";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: none;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 13px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 11px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 12px; }
+
+blockquote {
+  font-size: 12px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+
+/* Ensure icon+text are side-by-side */
+.info-tag-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* optional spacing between rows */
+}
+
+/* Give each icon a fixed‐width container */
+.info-tag-container i {
+  display: inline-block;   /* treat <i> as a box */
+  width: 20px;             /* same width for every icon */
+  text-align: center;      /* center the icon glyph inside that box */
+  margin-right: 8px;       /* space between icon and text */
+  /* font-size: 14px; */   /* adjust if needed */
+}
+
+/* Remove default margins on the <h6> so text sits flush */
+.info-tag-container .info-text {
+  margin: 0;
+}
+
+
+@page {
+    size: A4;
+    margin: 50px 0px 50px 0px;
+}
+
+@page :first {
+    margin-top: 0;
+  }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #4682B4; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: 10px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #4682B4; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: none;
+  width: 210mm;
+  min-height: 297mm;
+  display: block;
+  margin: 0 auto;
+  border-top: 0px solid #4682B4;
+  padding: 36px 22px 30px 34px;
+  box-shadow: none !important;}
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: auto;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+    
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+
+
+
+@media print {
+  /* Keep zero body margin so @page margins apply correctly */
+  body {
+    margin: 0;
+  }
+
+  .skills-container .container {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .container.languages-container {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Treat each .page as a table-row so its cells can split across pages */
+  .page {
+    display: table !important;
+    width: 100% !important;         /* Fill the printable width (minus @page margins) */
+    table-layout: fixed;             /* Distribute width according to each cell’s width */
+    border: none !important;         /* Remove any borders or shadows */
+    box-shadow: none !important;
+    background: none !important;     /* No white overlay to cover content */
+    padding: 0 !important;           /* Rely on @page margins instead */
+    page-break-before: always;       /* Each .page starts on a new sheet */
+    border-top: 10px solid #4682B4 !important;
+  }
+  
+  /* Don’t insert a blank first page */
+  .page:first-child {
+    page-break-before: avoid;
+  }
+
+  /* Preserve any header/content padding inside .page */
+  .page .resume-header {
+    margin-top: 10px;
+  }
+  
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  /* Turn the columns into table-cells so they stay side-by-side yet can break */
+  .left-column,
+  .right-column {
+    display: table-cell !important;
+    vertical-align: top;             /* Align top of both cells */
+    float: none !important;          /* Cancel desktop floats */
+    width: auto !important;          /* Let table-cell sizing take over */
+    overflow: visible !important;    /* Allow content to flow/break */
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+  /* Adjust these percentages to fit your design */
+  .left-column {
+    width: 30% !important;
+  }
+  .right-column {
+    width: 70% !important;
+  }
+
+  /* Allow inner containers/items to split across pages */
+  .container,
+  .work-container .item {
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+
+  /* Hide external-link icons in print */
+  .fa-external-link {
+    display: none;
+  }
+  
+}
+
+
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header pull-left">
+			        <h1>Ask Haugerud Hovik</h1>
+			        <h2>MECHANICAL / AEROSPACE ENGINEER</h2>
+			    </div>
+			    <div class="profile-pic pull-right">
+			        <img src="profile_pic.jpg" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">Trondheim,  Norway</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-envelope-o"></i>
+					        
+					                <h6 class="info-text">ask.hovik@gmail.com</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-mobile"></i>
+					        
+					                <h6 class="info-text">+47 905 93 845</h6>
+					        </div>
+					
+					                        <div class="info-tag-container">
+					                            <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/ask-haugerud-hovik-b69bb7214/" target="_blank">
+					                                        in/ask-haugerud-hovik <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-spotify"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://open.spotify.com/episode/5iBcXr4S9aIijnQZ0kReOh" target="_blank">
+					                                         Romkapsel podcast appearance <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div></section>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Programming and Scripting</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Python</h6></li>
+					                            <li><h6>Matlab</h6></li>
+					                            <li><h6>C++</h6></li>
+					                            <li><h6>Linux/Unix</h6></li>
+					                            <li><h6>Git</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Engineering Software</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>OpenFOAM</h6></li>
+					                            <li><h6>Ansys Fluent</h6></li>
+					                            <li><h6>3DExperience/CATIA</h6></li>
+					                            <li><h6>Siemens NX</h6></li>
+					                            <li><h6>SolidWorks</h6></li>
+					                            <li><h6>Fusion 360</h6></li>
+					                            <li><h6>FreeCAD</h6></li>
+					                            <li><h6>Rhino</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Design &amp; Media Tools</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Photoshop/GIMP</h6></li>
+					                            <li><h6>InDesign/Scribus</h6></li>
+					                            <li><h6>Premiere/Kdenlive</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Engineering Skills</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Fluid mechanics</h6></li>
+					                            <li><h6>Aerodynamics</h6></li>
+					                            <li><h6>Numerical methods (FVM/FDM)</h6></li>
+					                            <li><h6>Computational Fluid Dynamics</h6></li>
+					                            <li><h6>Finite Element Method</h6></li>
+					                            <li><h6>Optimisation/MDO</h6></li>
+					                            <li><h6>Engineering Analysis</h6></li>
+					                            <li><h6>Wind tunnel testing</h6></li>
+					                            <li><h6>Sheet metal work</h6></li>
+					                            <li><h6>Composites</h6></li>
+					                            <li><h6>Metal 3D-printing</h6></li>
+					                            <li><h6>Aircraft manufacturing</h6></li>
+					                            <li><h6>Testing</h6></li>
+					                            <li><h6>Machining</h6></li>
+					                            <li><h6>Product Design</h6></li>
+					                            <li><h6>Verification &amp; Validation</h6></li>
+					                            <li><h6>Quality Assurance</h6></li>
+					                            <li><h6>Project Planning</h6></li>
+					                            <li><h6>Visualisation/Drawing</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					        <ul class="minimal">
+					                <li>
+					                    <h6>Norwegian <em>(Native)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>English <em>(Fluent)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>            <p class="summary">
+					                Mechanical and aerospace engineering student with extensive hands-on experience leading student rocketry teams, designing and testing bi-liquid rocket engines, and working in aircraft manufacturing environments.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Rocket Factory Augsburg
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2024</span>
+					                        <span class="endDate"> - 02/2025</span>
+					                </h5>
+					            </div>
+					            <h4>PROPULSION ENGINEERING INTERN</h4>
+					
+					            <p class="summary">Fast-paced environment working with critical components of the Helix staged combustion rocket engine. Multidisciplinary work on production, design and documentation.</p>
+					
+					            <ul>
+					                <li>Planned and conducted tests for valves and instrumentation</li>
+					                <li>Designed metal 3D-printed parts, engine components, and production jigs</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Propulse NTNU
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2023</span>
+					                        <span class="endDate"> - 07/2024</span>
+					                </h5>
+					            </div>
+					            <h4>CHIEF TECHNICAL OFFICER</h4>
+					
+					            <p class="summary">Propulse is a student rocketry team at NTNU. Defined the technical scope of the Propulse NTNU sounding-rocket programme and led a 60 member team designing and testing bi-liquid rocket engines.</p>
+					
+					            <ul>
+					                <li>Guided technical direction for the &#x27;Stetind&#x27; and &#x27;Valemon&#x27; rockets, achieving top placement in the international student rocketry competition EuRoC</li>
+					                <li>Oversaw subsystem leads across propulsion, structures, recovery, and avionics</li>
+					                <li>Mentor (2022), Chief Mechanical Engineer (2021), Recovery Engineer (2020) in earlier roles at Propulse</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Delft Aerospace Rocket Engineering (DARE)
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2022</span>
+					                        <span class="endDate"> - 06/2023</span>
+					                </h5>
+					            </div>
+					            <h4>RECOVERY ENGINEER</h4>
+					
+					            <p class="summary">DARE is a student rocketry team based out of TU Delft. Worked within the recovery team to design a dual-parachute recovery system for Project DODO.</p>
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        TU Delft - Aircraft Manufacturing Lab
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2023</span>
+					                        <span class="endDate"> - 06/2023</span>
+					                </h5>
+					            </div>
+					            <h4>CONSTRUCTION LEAD</h4>
+					
+					            <p class="summary">Led hands-on manufacturing of the RV-12 kit aircraft in a real production environment, ensuring all work followed certified procedures and documentation standards.</p>
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Cappelen Damm
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2021</span>
+					                        <span class="endDate"> - 08/2021</span>
+					                </h5>
+					            </div>
+					            <h4>ILLUSTRATOR</h4>
+					
+					            <p class="summary">Illustrated the Art &amp; Crafts curriculum for a digital textbook during summer employment.</p>
+					
+					        </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Norwegian University of Science and Technology (NTNU)
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2019</span>
+					                        <span class="endDate"> - 07/2025</span>
+					                </h5>
+					            </div>
+					            <h4>Master&#x27;s Mechanical Engineering</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Specialisation in Fluid Dynamics</li>
+					                <li>Institute of Energy and Process Engineering</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Delft University of Technology (TU Delft)
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2022</span>
+					                        <span class="endDate"> - 06/2023</span>
+					                </h5>
+					            </div>
+					            <h4>Exchange Year Aerospace Engineering</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Specialisation in Flight Performance and Propulsion</li>
+					                <li>Faculty of Aerospace Engineering</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Royal Danish Academy of Fine Arts (KADK)
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2018</span>
+					                        <span class="endDate"> - 06/2019</span>
+					                </h5>
+					            </div>
+					            <h4>Individual Courses Architecture</h4>
+					
+					
+					        </section>
+					</div>
+					<div class="container references-container">
+					    <div class="title">
+					        <h3>References</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item clearfix">
+					            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+					            <blockquote>
+					                Email: arch.pleumpanya@rfa.space  \xA0 \xA0 \xA0 \xA0 \xA0 \xA0\xA0 \xA0 \xA0 \xA0 Company Phone: +49 821999576
+					            </blockquote>
+					
+					            <h5 class="pull-right"> — Arch Pleumpanya, Rocket Factory Augsburg</h5>
+					        </section>
+					        <section class="item clearfix">
+					            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+					            <blockquote>
+					                Phone: +47 465 00 878
+					            </blockquote>
+					
+					            <h5 class="pull-right"> — Simen Flåtter Flo, Propulse NTNU</h5>
+					        </section>
+					        <section class="item clearfix">
+					            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+					            <blockquote>
+					                Phone: +47 930 83 979
+					            </blockquote>
+					
+					            <h5 class="pull-right"> — Lise Wulff, Cappelen Damm</h5>
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
+`,t=`/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+
+@import "/node_modules/font-awesome/css/font-awesome.min.css";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: none;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 13px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 11px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 12px; }
+
+blockquote {
+  font-size: 12px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+
+/* Ensure icon+text are side-by-side */
+.info-tag-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* optional spacing between rows */
+}
+
+/* Give each icon a fixed‐width container */
+.info-tag-container i {
+  display: inline-block;   /* treat <i> as a box */
+  width: 20px;             /* same width for every icon */
+  text-align: center;      /* center the icon glyph inside that box */
+  margin-right: 8px;       /* space between icon and text */
+  /* font-size: 14px; */   /* adjust if needed */
+}
+
+/* Remove default margins on the <h6> so text sits flush */
+.info-tag-container .info-text {
+  margin: 0;
+}
+
+
+@page {
+    size: A4;
+    margin: 50px 0px 50px 0px;
+}
+
+@page :first {
+    margin-top: 0;
+  }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #4682B4; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: 10px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #4682B4; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: none;
+  width: 210mm;
+  min-height: 297mm;
+  display: block;
+  margin: 0 auto;
+  border-top: 0px solid #4682B4;
+  padding: 36px 22px 30px 34px;
+  box-shadow: none !important;}
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: auto;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+    
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+
+
+
+@media print {
+  /* Keep zero body margin so @page margins apply correctly */
+  body {
+    margin: 0;
+  }
+
+  .skills-container .container {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .container.languages-container {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Treat each .page as a table-row so its cells can split across pages */
+  .page {
+    display: table !important;
+    width: 100% !important;         /* Fill the printable width (minus @page margins) */
+    table-layout: fixed;             /* Distribute width according to each cell’s width */
+    border: none !important;         /* Remove any borders or shadows */
+    box-shadow: none !important;
+    background: none !important;     /* No white overlay to cover content */
+    padding: 0 !important;           /* Rely on @page margins instead */
+    page-break-before: always;       /* Each .page starts on a new sheet */
+    border-top: 10px solid #4682B4 !important;
+  }
+  
+  /* Don’t insert a blank first page */
+  .page:first-child {
+    page-break-before: avoid;
+  }
+
+  /* Preserve any header/content padding inside .page */
+  .page .resume-header {
+    margin-top: 10px;
+  }
+  
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  /* Turn the columns into table-cells so they stay side-by-side yet can break */
+  .left-column,
+  .right-column {
+    display: table-cell !important;
+    vertical-align: top;             /* Align top of both cells */
+    float: none !important;          /* Cancel desktop floats */
+    width: auto !important;          /* Let table-cell sizing take over */
+    overflow: visible !important;    /* Allow content to flow/break */
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+  /* Adjust these percentages to fit your design */
+  .left-column {
+    width: 30% !important;
+  }
+  .right-column {
+    width: 70% !important;
+  }
+
+  /* Allow inner containers/items to split across pages */
+  .container,
+  .work-container .item {
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+
+  /* Hide external-link icons in print */
+  .fa-external-link {
+    display: none;
+  }
+  
+}
+
+
+`,n=`/ask_website/assets/profile_pic-SncVRWQG.jpg`;async function r(e){let t=await(await fetch(e)).text(),n=new URL(e);return t.replace(/url\(([^)]+)\)/g,(e,t)=>{let r=t.trim().replace(/^['"]|['"]$/g,``);return/^(data:|https?:|\/\/)/i.test(r)?`url(${r})`:`url(${new URL(r,n).href})`})}async function i(){let i=document.getElementById(`cv-shadow-host`);if(!i)return;let a=await r(`https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css`),o=i.attachShadow({mode:`open`}),s=document.createElement(`style`);s.textContent=`
+    /* Lock resume to light + its own font stack so site theme doesn't bleed in */
+    :host { color-scheme: light; }
+    .cv-root {
+      background: #ffffff !important;
+      color: #39424B !important;
+    }
+    .cv-root, .cv-root * {
+      font-family: "Josefin Sans", "Lato", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif !important;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Remove any card effect */
+    .cv-root, .cv-root * {
+      box-shadow: none !important;
+    }
+
+    /* === Font Awesome 4 (inlined so it styles inside the shadow) === */
+    ${a}
+
+    /* === Your custom theme CSS (already tweaked) === */
+    ${t}
+  `;let c=document.createElement(`div`);c.className=`cv-root`,c.innerHTML=e;let l=c.querySelector(`img[src="profile_pic.jpg"]`);l&&(l.src=n),o.appendChild(s),o.appendChild(c)}i();
