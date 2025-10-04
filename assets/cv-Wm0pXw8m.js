@@ -1163,7 +1163,7 @@ ul {
 }
 
 
-`,n=`/ask_website/assets/profile_pic-SncVRWQG.jpg`,r=`https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css`;async function i(e){let t=await fetch(e);if(!t.ok)throw Error(`Failed to fetch CSS: ${e}`);let n=await t.text(),r=new URL(e);return n.replace(/url\(([^)]+)\)/g,(e,t)=>{let n=t.trim().replace(/^['"]|['"]$/g,``);return/^(data:|https?:|\/\/)/i.test(n)?`url(${n})`:`url(${new URL(n,r).href})`})}function a(e,t){if(!document.getElementById(t)){let n=document.createElement(`link`);n.rel=`stylesheet`,n.href=e,n.id=t,document.head.appendChild(n)}}async function o(){let o=document.getElementById(`cv-shadow-host`);if(!o)return;a(r,`fa4-head`);let s=await i(r),c=o.attachShadow({mode:`open`}),l=document.createElement(`style`);l.textContent=`
+`,n=`/assets/profile_pic-SncVRWQG.jpg`,r=`https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css`;async function i(e){let t=await fetch(e);if(!t.ok)throw Error(`Failed to fetch CSS: ${e}`);let n=await t.text(),r=new URL(e);return n.replace(/url\(([^)]+)\)/g,(e,t)=>{let n=t.trim().replace(/^['"]|['"]$/g,``);return/^(data:|https?:|\/\/)/i.test(n)?`url(${n})`:`url(${new URL(n,r).href})`})}function a(e,t){if(!document.getElementById(t)){let n=document.createElement(`link`);n.rel=`stylesheet`,n.href=e,n.id=t,document.head.appendChild(n)}}async function o(){let o=document.getElementById(`cv-shadow-host`);if(!o)return;a(r,`fa4-head`);let s=await i(r),c=o.attachShadow({mode:`open`}),l=document.createElement(`style`);l.textContent=`
     /* Lock the CV to a light "paper" look, independent of site theme */
     :host { color-scheme: light; }
     .cv-root {
