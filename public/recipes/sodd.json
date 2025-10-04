@@ -1,0 +1,15 @@
+{
+  "title": "Sodd",
+  "time_minutes": 90,
+  "serves": 6,
+  "ingredients": [
+    { "item": "Kraft", "amount": 1.5, "unit": "l" },
+    { "item": "Kjøtt (lam eller storfe)", "amount": 600, "unit": "g" },
+    { "item": "Kjøttboller", "amount": 20, "unit": "pc" },
+    { "item": "Poteter", "amount": 600, "unit": "g" },
+    { "item": "Gulrøtter", "amount": 3, "unit": "pc" },
+    { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
+  ],
+  "steps": "Kok poteter og gulrøtter separat.\nVarm opp kraften, tilsett kjøtt og kjøttboller.\nLa småkoke til alt er varmt.\nLegg grønnsakene i kraften.\nServer med skjenning eller flatbrød.",
+  "tags": ["tradisjonelt", "suppe", "lam", "middag"]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Maki-ruller",
+  "time_minutes": 60,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Sushiris", "amount": 300, "unit": "g" },
+    { "item": "Nori-ark", "amount": 4, "unit": "pc" },
+    { "item": "Laks, fersk", "amount": 200, "unit": "g" },
+    { "item": "Agurk", "amount": 1, "unit": "pc" },
+    { "item": "Avokado", "amount": 1, "unit": "pc" },
+    { "item": "Riseddik", "amount": 3, "unit": "ss" },
+    { "item": "Sukker", "amount": 1, "unit": "ss" },
+    { "item": "Salt", "amount": 0.5, "unit": "ts" },
+    { "item": "Soyasaus", "amount": 4, "unit": "ss" },
+    { "item": "Wasabi", "amount": 1, "unit": "ts" }
+  ],
+  "steps": "Kok sushiris og bland med eddik, sukker og salt.\nSkjær laks, agurk og avokado i strimler.\nLegg nori på en bambusmatte, bre ris utover.\nLegg fyll i midten og rull stramt sammen.\nSkjær i biter og server med soyasaus og wasabi.",
+  "tags": ["sushi", "japansk", "fisk", "ris"]
+}
