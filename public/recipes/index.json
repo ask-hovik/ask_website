@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "chili_con_carne",
+    "title": "Chili con carne",
+    "time_minutes": 70,
+    "serves": 4,
+    "tags": [
+      "dinner",
+      "beef",
+      "stew",
+      "spicy"
+    ]
+  }
+]

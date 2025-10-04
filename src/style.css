@@ -308,3 +308,22 @@ pre {
   body { background: #fff !important; }
 }
 
+.chip-row { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chip {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 999px;
+  padding: .25rem .6rem;
+  cursor: pointer;
+}
+.chip--active {
+  background: color-mix(in hsl, var(--link) 18%, var(--panel));
+  border-color: color-mix(in hsl, var(--link) 40%, var(--border));
+}
+
+.recipe-list { list-style: none; padding: 0; margin: 0; display: grid; gap: .6rem; }
+.recipe-list a.recipe-link { font-weight: 600; text-decoration: none; }
+.recipe-list .muted { color: var(--muted); }
+.small { font-size: 0.9rem; }
+
+.btn--small { padding: .3rem .55rem; border-radius: 8px; }
