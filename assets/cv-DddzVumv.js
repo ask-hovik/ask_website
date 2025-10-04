@@ -282,6 +282,12 @@ ul {
 
 
 @media print {
+  .section-header + h4,
+  .item > h4 {
+    clear: both !important;
+    display: block !important;
+    margin-top: 4px !important;
+  }
   /* Keep zero body margin so @page margins apply correctly */
   body {
     margin: 0;
@@ -306,8 +312,8 @@ ul {
     box-shadow: none !important;
     background: none !important;     /* No white overlay to cover content */
     padding: 0 !important;           /* Rely on @page margins instead */
-    page-break-before: always;       /* Each .page starts on a new sheet */
-    border-top: 10px solid #4682B4 !important;
+    page-break-before: auto !important;       /* Each .page starts on a new sheet */
+    
   }
   
   /* Don’t insert a blank first page */
@@ -355,6 +361,65 @@ ul {
     display: none;
   }
   
+}
+
+
+/* =========================
+   PRINT POLISH
+   ========================= */
+@media print {
+  /* 1) Blue bar stays gone & use normal flowing layout */
+  .page {
+    border-top: 0 !important;
+    display: block !important;
+    background: #fff !important;
+
+    /* 2) A little extra breathing room near the bottom edge */
+    padding-bottom: 40px !important;  /* tweak to taste */
+  }
+
+  /* 3) Add a touch more page margin at the bottom (global) */
+  @page {
+    /* top | right | bottom | left */
+    margin: 50px 0 60px 0;  /* bottom was 50px; bump to 60px */
+  }
+
+  /* 4) Keep headings WITH the content that follows (no orphan headings) */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid-page;
+  }
+
+  /* 5) Keep these blocks together — don't split across pages */
+  p,
+  blockquote,
+  ul, ol,
+  li,
+  pre, table,
+  .container,
+  .item,
+  .work-container .item,
+  .education-container .item,
+  .skills-container .container,
+  .languages-container,
+  .section-header {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* 6) Reduce “single stray line at top/bottom of page” in paragraphs/lists */
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* 7) After floated section header, ensure the role/title (h4) starts on a new line */
+  .section-header + h4,
+  .item > h4 {
+    clear: both !important;
+    display: block !important;
+    margin-top: 4px !important;
+  }
 }
 
 
@@ -957,6 +1022,12 @@ ul {
 
 
 @media print {
+  .section-header + h4,
+  .item > h4 {
+    clear: both !important;
+    display: block !important;
+    margin-top: 4px !important;
+  }
   /* Keep zero body margin so @page margins apply correctly */
   body {
     margin: 0;
@@ -981,8 +1052,8 @@ ul {
     box-shadow: none !important;
     background: none !important;     /* No white overlay to cover content */
     padding: 0 !important;           /* Rely on @page margins instead */
-    page-break-before: always;       /* Each .page starts on a new sheet */
-    border-top: 10px solid #4682B4 !important;
+    page-break-before: auto !important;       /* Each .page starts on a new sheet */
+    
   }
   
   /* Don’t insert a blank first page */
@@ -1033,27 +1104,91 @@ ul {
 }
 
 
-`,n=`/ask_website/assets/profile_pic-SncVRWQG.jpg`;async function r(e){let t=await(await fetch(e)).text(),n=new URL(e);return t.replace(/url\(([^)]+)\)/g,(e,t)=>{let r=t.trim().replace(/^['"]|['"]$/g,``);return/^(data:|https?:|\/\/)/i.test(r)?`url(${r})`:`url(${new URL(r,n).href})`})}async function i(){let i=document.getElementById(`cv-shadow-host`);if(!i)return;let a=await r(`https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css`),o=i.attachShadow({mode:`open`}),s=document.createElement(`style`);s.textContent=`
-    /* Lock resume to light + its own font stack so site theme doesn't bleed in */
+/* =========================
+   PRINT POLISH
+   ========================= */
+@media print {
+  /* 1) Blue bar stays gone & use normal flowing layout */
+  .page {
+    border-top: 0 !important;
+    display: block !important;
+    background: #fff !important;
+
+    /* 2) A little extra breathing room near the bottom edge */
+    padding-bottom: 40px !important;  /* tweak to taste */
+  }
+
+  /* 3) Add a touch more page margin at the bottom (global) */
+  @page {
+    /* top | right | bottom | left */
+    margin: 50px 0 60px 0;  /* bottom was 50px; bump to 60px */
+  }
+
+  /* 4) Keep headings WITH the content that follows (no orphan headings) */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid-page;
+  }
+
+  /* 5) Keep these blocks together — don't split across pages */
+  p,
+  blockquote,
+  ul, ol,
+  li,
+  pre, table,
+  .container,
+  .item,
+  .work-container .item,
+  .education-container .item,
+  .skills-container .container,
+  .languages-container,
+  .section-header {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* 6) Reduce “single stray line at top/bottom of page” in paragraphs/lists */
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* 7) After floated section header, ensure the role/title (h4) starts on a new line */
+  .section-header + h4,
+  .item > h4 {
+    clear: both !important;
+    display: block !important;
+    margin-top: 4px !important;
+  }
+}
+
+
+`,n=`/ask_website/assets/profile_pic-SncVRWQG.jpg`,r=`https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css`;async function i(e){let t=await fetch(e);if(!t.ok)throw Error(`Failed to fetch CSS: ${e}`);let n=await t.text(),r=new URL(e);return n.replace(/url\(([^)]+)\)/g,(e,t)=>{let n=t.trim().replace(/^['"]|['"]$/g,``);return/^(data:|https?:|\/\/)/i.test(n)?`url(${n})`:`url(${new URL(n,r).href})`})}function a(e,t){if(!document.getElementById(t)){let n=document.createElement(`link`);n.rel=`stylesheet`,n.href=e,n.id=t,document.head.appendChild(n)}}async function o(){let o=document.getElementById(`cv-shadow-host`);if(!o)return;a(r,`fa4-head`);let s=await i(r),c=o.attachShadow({mode:`open`}),l=document.createElement(`style`);l.textContent=`
+    /* Lock the CV to a light "paper" look, independent of site theme */
     :host { color-scheme: light; }
     .cv-root {
-      background: #ffffff !important;
-      color: #39424B !important;
+      background: #ffffff;
+      color: #39424B;
+      overflow-x: hidden;  /* avoid horizontal scroll revealing site background */
     }
-    .cv-root, .cv-root * {
-      font-family: "Josefin Sans", "Lato", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif !important;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+    :host { overflow-x: hidden; }
+
+    /* Remove card shadows/borders inside the CV (visual seams) */
+    .cv-root, .cv-root * { box-shadow: none !important; }
+
+    /* Scaler container for mobile fit-to-width */
+    .cv-scaler { position: relative; }
+    .cv-scaler .page { transform-origin: top left; }
+
+    /* Disable scaling and allow normal layout when printing */
+    @media print {
+      .cv-scaler { width: auto !important; height: auto !important; }
+      .cv-scaler .page { transform: none !important; }
     }
 
-    /* Remove any card effect */
-    .cv-root, .cv-root * {
-      box-shadow: none !important;
-    }
+    /* === Font Awesome 4 inlined into the shadow (icons render inside shadow) === */
+    ${s}
 
-    /* === Font Awesome 4 (inlined so it styles inside the shadow) === */
-    ${a}
-
-    /* === Your custom theme CSS (already tweaked) === */
+    /* === Your custom theme CSS (with your border/print fixes) === */
     ${t}
-  `;let c=document.createElement(`div`);c.className=`cv-root`,c.innerHTML=e;let l=c.querySelector(`img[src="profile_pic.jpg"]`);l&&(l.src=n),o.appendChild(s),o.appendChild(c)}i();
+  `;let u=document.createElement(`div`);u.className=`cv-root`,u.innerHTML=e;let d=u.querySelector(`img[src="profile_pic.jpg"]`);d&&(d.src=n);let f=u.querySelector(`.page`),p=null;f&&(p=document.createElement(`div`),p.className=`cv-scaler`,f.parentElement.insertBefore(p,f),p.appendChild(f)),c.appendChild(l),c.appendChild(u);function m(){if(!o||!f||!p)return;let e=o.getBoundingClientRect().width,t=f.scrollWidth||f.getBoundingClientRect().width||794,n=Math.max(.1,Math.min(1,(e-2)/t));f.style.transform=`scale(${n})`;let r=f.scrollHeight||f.getBoundingClientRect().height;p.style.width=`${t*n}px`,p.style.height=`${r*n}px`}m(),new ResizeObserver(m).observe(o),window.addEventListener(`resize`,m)}o();
