@@ -1,5 +1,40 @@
 [
   {
+    "slug": "bakt_hvit_fisk",
+    "title": "Bakt hvit fisk",
+    "time_minutes": 30,
+    "serves": 4,
+    "tags": [
+      "fisk",
+      "middag",
+      "ovn",
+      "norsk"
+    ]
+  },
+  {
+    "slug": "bakt_potet",
+    "title": "Bakt potet",
+    "time_minutes": 70,
+    "serves": 4,
+    "tags": [
+      "potet",
+      "middag",
+      "tilbehør",
+      "ovn"
+    ]
+  },
+  {
+    "slug": "brod",
+    "title": "Brød (grunnoppskrift)",
+    "time_minutes": 150,
+    "serves": 2,
+    "tags": [
+      "bakst",
+      "brød",
+      "grunnoppskrift"
+    ]
+  },
+  {
     "slug": "chili_con_carne",
     "title": "Chili con carne",
     "time_minutes": 70,
@@ -13,14 +48,180 @@
   },
   {
     "slug": "gresk_fiskerett_a_la_bestefar",
-    "title": "Gresk Fiskerett a la bestefar",
-    "time_minutes": 70,
+    "title": "Gresk fiskerett a la bestefar",
+    "time_minutes": 50,
     "serves": 4,
     "tags": [
-      "dinner",
-      "beef",
-      "stew",
+      "fisk",
+      "gresk",
+      "middag",
+      "ovn"
+    ]
+  },
+  {
+    "slug": "gronnsakssuppe",
+    "title": "Grønnsakssuppe",
+    "time_minutes": 45,
+    "serves": 4,
+    "tags": [
+      "suppe",
+      "vegetar",
+      "norsk",
+      "middag"
+    ]
+  },
+  {
+    "slug": "hvit_saus",
+    "title": "Hvit saus",
+    "time_minutes": 15,
+    "serves": 4,
+    "tags": [
+      "saus",
+      "grunnoppskrift",
+      "tilbehør"
+    ]
+  },
+  {
+    "slug": "lammeskank",
+    "title": "Lammeskank",
+    "time_minutes": 180,
+    "serves": 4,
+    "tags": [
+      "lam",
+      "gryte",
+      "middag",
+      "langtid"
+    ]
+  },
+  {
+    "slug": "maki_ruller",
+    "title": "Maki-ruller",
+    "time_minutes": 60,
+    "serves": 4,
+    "tags": [
+      "sushi",
+      "japansk",
+      "fisk",
+      "ris"
+    ]
+  },
+  {
+    "slug": "napoleons_kylling",
+    "title": "Napoleons kylling",
+    "time_minutes": 90,
+    "serves": 4,
+    "tags": [
+      "kylling",
+      "gryte",
+      "middag",
+      "fransk"
+    ]
+  },
+  {
+    "slug": "notteburger",
+    "title": "Nøtteburger",
+    "time_minutes": 45,
+    "serves": 4,
+    "tags": [
+      "vegetar",
+      "burger",
+      "middag",
+      "nøtter"
+    ]
+  },
+  {
+    "slug": "potet_og_brokkolisalat",
+    "title": "Potet- og brokkolisalat",
+    "time_minutes": 35,
+    "serves": 4,
+    "tags": [
+      "salat",
+      "vegetar",
+      "tilbehør",
+      "kaldrett"
+    ]
+  },
+  {
+    "slug": "rod_gryte",
+    "title": "Rød gryte",
+    "time_minutes": 45,
+    "serves": 4,
+    "tags": [
+      "vegetar",
+      "gryte",
+      "middag",
+      "varmrett"
+    ]
+  },
+  {
+    "slug": "sodd",
+    "title": "Sodd",
+    "time_minutes": 90,
+    "serves": 6,
+    "tags": [
+      "tradisjonelt",
+      "suppe",
+      "lam",
+      "middag"
+    ]
+  },
+  {
+    "slug": "spagetti_med_kjottsaus",
+    "title": "Spaghetti med kjøttsaus",
+    "time_minutes": 40,
+    "serves": 4,
+    "tags": [
+      "pasta",
+      "middag",
+      "italiensk",
+      "kjøtt"
+    ]
+  },
+  {
+    "slug": "spirer",
+    "title": "Spirer (enkelt tilbehør)",
+    "time_minutes": 10,
+    "serves": 2,
+    "tags": [
+      "tilbehør",
+      "vegetar",
+      "raskt",
+      "sunt"
+    ]
+  },
+  {
+    "slug": "thai_suppe",
+    "title": "Thai suppe",
+    "time_minutes": 35,
+    "serves": 4,
+    "tags": [
+      "suppe",
+      "asiatisk",
+      "kylling",
       "spicy"
+    ]
+  },
+  {
+    "slug": "trukket_fisk",
+    "title": "Trukket fisk",
+    "time_minutes": 20,
+    "serves": 4,
+    "tags": [
+      "fisk",
+      "middag",
+      "tradisjonelt"
+    ]
+  },
+  {
+    "slug": "tyrkiske_kjottboller",
+    "title": "Tyrkiske kjøttboller (Köfte)",
+    "time_minutes": 50,
+    "serves": 4,
+    "tags": [
+      "kjøtt",
+      "middag",
+      "tyrkisk",
+      "småretter"
     ]
   }
 ]

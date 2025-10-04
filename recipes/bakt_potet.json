@@ -1,0 +1,17 @@
+{
+  "title": "Bakt potet",
+  "time_minutes": 70,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Store bakepoteter", "amount": 4, "unit": "pc" },
+    { "item": "Olivenolje", "amount": 2, "unit": "ss" },
+    { "item": "Salt", "amount": 1, "unit": "ts" },
+    { "item": "Smør", "amount": 4, "unit": "ss" },
+    { "item": "Rømme", "amount": 4, "unit": "ss" },
+    { "item": "Revet ost", "amount": 100, "unit": "g" },
+    { "item": "Baconterninger", "amount": 100, "unit": "g" },
+    { "item": "Vårløk", "amount": 2, "unit": "pc" }
+  ],
+  "steps": "Forvarm ovn til 220 °C.\nVask og tørk potetene, gni inn med olje og salt.\nBak potetene i 1 time til skallet er sprøtt og de er myke inni.\nSkjær et kryss på toppen, klem forsiktig.\nFyll med smør, rømme, ost, bacon og vårløk.",
+  "tags": ["potet", "middag", "tilbehør", "ovn"]
+}

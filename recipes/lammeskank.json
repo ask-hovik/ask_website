@@ -1,0 +1,20 @@
+{
+  "title": "Lammeskank",
+  "time_minutes": 180,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Lammeskanker", "amount": 4, "unit": "pc" },
+    { "item": "Løk", "amount": 2, "unit": "pc" },
+    { "item": "Gulrøtter", "amount": 2, "unit": "pc" },
+    { "item": "Stangselleri", "amount": 2, "unit": "stilk" },
+    { "item": "Hvitløksfedd", "amount": 4, "unit": "pc" },
+    { "item": "Rødvin", "amount": 3, "unit": "dl" },
+    { "item": "Kraft eller buljong", "amount": 5, "unit": "dl" },
+    { "item": "Tomatpuré", "amount": 2, "unit": "ss" },
+    { "item": "Rosmarin", "amount": 2, "unit": "ts" },
+    { "item": "Olivenolje", "amount": 3, "unit": "ss" },
+    { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
+  ],
+  "steps": "Brun lammeskankene i olje i en stor gryte.\nTilsett grovhakket løk, gulrot, selleri og hvitløk.\nRør inn tomatpuré og la det frese.\nHell over rødvin og la det koke inn litt.\nTilsett kraft og rosmarin.\nLa småkoke under lokk i 2,5–3 timer til kjøttet er mørt.\nServer med potetmos eller rotmos.",
+  "tags": ["lam", "gryte", "middag", "langtid"]
+}

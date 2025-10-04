@@ -1,0 +1,20 @@
+{
+  "title": "Potet- og brokkolisalat",
+  "time_minutes": 35,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Mandelpoteter", "amount": 600, "unit": "g" },
+    { "item": "Brokkoli", "amount": 1, "unit": "pc" },
+    { "item": "Eple", "amount": 1, "unit": "pc" },
+    { "item": "Valnøtter", "amount": 50, "unit": "g" },
+    { "item": "Fersk dill", "amount": 2, "unit": "ss" },
+    { "item": "Fetaost", "amount": 100, "unit": "g" },
+    { "item": "Olivenolje", "amount": 1, "unit": "dl" },
+    { "item": "Honning", "amount": 1, "unit": "ss" },
+    { "item": "Lime eller sitron", "amount": 0.5, "unit": "pc" },
+    { "item": "Dijonsennep", "amount": 2, "unit": "ss" },
+    { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
+  ],
+  "steps": "Kok potetene, del i biter når de er ferdige.\nDel brokkoli i buketter, bland med dressing av olje, honning, lime og sennep.\nRør inn potetene når de er lunkne.\nTilsett eplebiter, valnøtter og fetaost.\nDryss dill over.\nServer gjerne med melon og spekeskinke.",
+  "tags": ["salat", "vegetar", "tilbehør", "kaldrett"]
+}

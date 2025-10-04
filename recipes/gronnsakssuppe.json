@@ -1,0 +1,18 @@
+{
+  "title": "Grønnsakssuppe",
+  "time_minutes": 45,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Vann", "amount": 1, "unit": "l" },
+    { "item": "Løk", "amount": 1, "unit": "pc" },
+    { "item": "Sellerirot", "amount": 200, "unit": "g" },
+    { "item": "Gulrot", "amount": 2, "unit": "pc" },
+    { "item": "Kålrot", "amount": 200, "unit": "g" },
+    { "item": "Stangselleri", "amount": 2, "unit": "stilk" },
+    { "item": "Hvitløk", "amount": 2, "unit": "fedd" },
+    { "item": "Buljongterning", "amount": 1, "unit": "pc" },
+    { "item": "Smør eller olje", "amount": 1, "unit": "ss" }
+  ],
+  "steps": "Skjær grønnsakene i terninger.\nStart med gulrot og kålrot i en gryte med smør.\nTilsett løk, sellerirot og stangselleri.\nHell i vann og buljong, kok opp.\nHa i hvitløk mot slutten.\nLa småkoke til grønnsakene er møre (ca 30 min).",
+  "tags": ["suppe", "vegetar", "norsk", "middag"]
+}

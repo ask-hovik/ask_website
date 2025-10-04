@@ -1,0 +1,13 @@
+{
+  "title": "Spirer (enkelt tilbehør)",
+  "time_minutes": 10,
+  "serves": 2,
+  "ingredients": [
+    { "item": "Alfalfaspirer eller bønnespirer", "amount": 100, "unit": "g" },
+    { "item": "Olivenolje", "amount": 1, "unit": "ss" },
+    { "item": "Sitron", "amount": 0.5, "unit": "pc" },
+    { "item": "Salt og pepper", "amount": 1, "unit": "klype" }
+  ],
+  "steps": "Skyll spirene godt.\nDrypp over olje og presset sitron.\nKrydre lett med salt og pepper.\nServer som frisk topping til salater eller varme retter.",
+  "tags": ["tilbehør", "vegetar", "raskt", "sunt"]
+}

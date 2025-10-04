@@ -1,0 +1,21 @@
+{
+  "title": "Rød gryte",
+  "time_minutes": 45,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Aubergine", "amount": 1, "unit": "pc" },
+    { "item": "Olivenolje", "amount": 3, "unit": "ss" },
+    { "item": "Rosmarin", "amount": 1, "unit": "ts" },
+    { "item": "Løk", "amount": 1, "unit": "pc" },
+    { "item": "Hvitløksfedd", "amount": 3, "unit": "pc" },
+    { "item": "Hakkede tomater", "amount": 400, "unit": "g" },
+    { "item": "Kidneybønner", "amount": 400, "unit": "g" },
+    { "item": "Gulrot", "amount": 2, "unit": "pc" },
+    { "item": "Champignon", "amount": 200, "unit": "g" },
+    { "item": "Tomatpuré", "amount": 2, "unit": "ss" },
+    { "item": "Chilipulver", "amount": 1, "unit": "ts" },
+    { "item": "Krydder (korianderfrø, cumin, harissa)", "amount": 2, "unit": "ts" }
+  ],
+  "steps": "Stek aubergine i terninger med rosmarin og olivenolje.\nTilsett løk og hvitløk, surr videre.\nRør inn hakkede tomater, bønner, gulrot og sopp.\nSmak til med tomatpuré og krydder.\nLa småkoke 20–40 min.\nTilsett paprika mot slutten.\nServer med ris, couscous eller speltperler, gjerne med rømme til.",
+  "tags": ["vegetar", "gryte", "middag", "varmrett"]
+}

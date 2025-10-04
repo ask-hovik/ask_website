@@ -1,0 +1,13 @@
+{
+  "title": "Hvit saus",
+  "time_minutes": 15,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Smør", "amount": 2, "unit": "ss" },
+    { "item": "Hvetemel", "amount": 2, "unit": "ss" },
+    { "item": "Melk", "amount": 5, "unit": "dl" },
+    { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
+  ],
+  "steps": "Smelt smør i en kasserolle.\nRør inn mel og spe gradvis med melk mens du pisker.\nKok opp under omrøring til ønsket tykkelse.\nSmak til med salt, pepper og evt. oregano/basilikum.\nTilsett ost for ostesaus.",
+  "tags": ["saus", "grunnoppskrift", "tilbehør"]
+}

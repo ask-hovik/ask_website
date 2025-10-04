@@ -1,0 +1,20 @@
+{
+  "title": "Tyrkiske kjøttboller (Köfte)",
+  "time_minutes": 50,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Kjøttdeig (lam eller storfe)", "amount": 500, "unit": "g" },
+    { "item": "Løk", "amount": 1, "unit": "pc" },
+    { "item": "Hvitløksfedd", "amount": 2, "unit": "pc" },
+    { "item": "Brødsmuler", "amount": 50, "unit": "g" },
+    { "item": "Egg", "amount": 1, "unit": "pc" },
+    { "item": "Koriander, malt", "amount": 1, "unit": "ts" },
+    { "item": "Spisskummen", "amount": 1, "unit": "ts" },
+    { "item": "Paprikapulver", "amount": 1, "unit": "ts" },
+    { "item": "Persille, frisk", "amount": 2, "unit": "ss" },
+    { "item": "Olivenolje", "amount": 2, "unit": "ss" },
+    { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
+  ],
+  "steps": "Finhakk løk og hvitløk, bland sammen med kjøttdeig, brødsmuler, egg og krydder.\nElt godt og form små avlange kjøttboller.\nStek i olje i panne til de er gjennomstekte.\nServer med tzatziki, ris eller flatbrød.",
+  "tags": ["kjøtt", "middag", "tyrkisk", "småretter"]
+}

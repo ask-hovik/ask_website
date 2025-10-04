@@ -1,0 +1,19 @@
+{
+  "title": "Thai suppe",
+  "time_minutes": 35,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Kokosmelk", "amount": 400, "unit": "ml" },
+    { "item": "Kyllingbryst", "amount": 300, "unit": "g" },
+    { "item": "Rød curry paste", "amount": 2, "unit": "ss" },
+    { "item": "Kyllingbuljong", "amount": 5, "unit": "dl" },
+    { "item": "Sitrongress", "amount": 1, "unit": "stilk" },
+    { "item": "Ingefær", "amount": 2, "unit": "cm" },
+    { "item": "Lime", "amount": 1, "unit": "pc" },
+    { "item": "Fiskesaus", "amount": 1, "unit": "ss" },
+    { "item": "Chili", "amount": 1, "unit": "pc" },
+    { "item": "Koriander, frisk", "amount": 1, "unit": "håndfull" }
+  ],
+  "steps": "Skjær kyllingen i strimler.\nKok opp buljong med curry paste, sitrongress og ingefær.\nTilsett kokosmelk og kylling, la trekke til kyllingen er gjennomkokt.\nSmak til med fiskesaus og lime.\nHa i chili og koriander ved servering.\nServer gjerne med ris.",
+  "tags": ["suppe", "asiatisk", "kylling", "spicy"]
+}

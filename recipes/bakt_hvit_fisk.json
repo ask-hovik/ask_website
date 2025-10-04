@@ -1,0 +1,17 @@
+{
+  "title": "Bakt hvit fisk",
+  "time_minutes": 30,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Filet av hvit fisk (torsk, sei, lyr, steinbit etc.)", "amount": 600, "unit": "g" },
+    { "item": "Olivenolje", "amount": 3, "unit": "ss" },
+    { "item": "Salt", "amount": 1, "unit": "ts" },
+    { "item": "Svart pepper", "amount": 0.5, "unit": "ts" },
+    { "item": "Tørket timian", "amount": 1, "unit": "ts" },
+    { "item": "Malt korianderfrø", "amount": 0.5, "unit": "ts" },
+    { "item": "Paprikapulver", "amount": 1, "unit": "ts" },
+    { "item": "Chili eller fersk ingefær (valgfritt)", "amount": 1, "unit": "pc" }
+  ],
+  "steps": "Forvarm ovnen til 190 °C.\nSmør en ildfast form med olivenolje.\nLegg fiskefiletene i formen, pensle oversiden med olje og krydre.\nBak i ovn i 12–18 minutter til fisken flaker seg.\nServer med rotmos eller kokte rotgrønnsaker.",
+  "tags": ["fisk", "middag", "ovn", "norsk"]
+}
