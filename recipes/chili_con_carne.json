@@ -1,0 +1,17 @@
+{
+  "title": "Chili con carne",
+  "time_minutes": 70,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Minced beef", "amount": 500, "unit": "g" },
+    { "item": "Kidney beans", "amount": 400, "unit": "g" },
+    { "item": "Onion", "amount": 1, "unit": "pc" },
+    { "item": "Garlic cloves", "amount": 2, "unit": "pc" },
+    { "item": "Crushed tomatoes", "amount": 400, "unit": "g" },
+    { "item": "Chili powder", "amount": 2, "unit": "tsp" },
+    { "item": "Cumin", "amount": 1, "unit": "tsp" },
+    { "item": "Salt", "amount": 1, "unit": "tsp" }
+  ],
+  "steps": "Sauté onion and garlic.\nBrown the beef.\nAdd spices, tomatoes, beans.\nSimmer 45–60 min.\nAdjust seasoning.",
+  "tags": ["dinner", "beef", "stew", "spicy"]
+}

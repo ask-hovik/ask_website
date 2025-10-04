@@ -1,20 +1,17 @@
-import"./nav-BMz1p0aR.js";var e=`<!doctype html>
+import"./nav-CsD91_X-.js";var e=`<!doctype html>
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	<title>Ask Haugerud Hovik</title>
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Load Font Awesome icons from a CDN that still serves version 4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		/* Utils */
 /*----- Colors -----*/
 /*----- Fonts -----*/
 /*----- Dimensions and sizes -----*/
 /* Base */
-
-@import "/node_modules/font-awesome/css/font-awesome.min.css";
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 @font-face {
   font-family: 'Josefin Sans';
@@ -182,6 +179,14 @@ ul {
   margin: 0;
 }
 
+/* Allow Font Awesome glyphs to use their icon font even inside the shadow root */
+.fa,
+.fa::before,
+.fa::after {
+  font-family: "FontAwesome" !important;
+  font-style: normal;
+  font-weight: normal;
+}
 
 @page {
     size: A4;
@@ -683,10 +688,6 @@ ul {
 /*----- Dimensions and sizes -----*/
 /* Base */
 
-@import "/node_modules/font-awesome/css/font-awesome.min.css";
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -853,6 +854,14 @@ ul {
   margin: 0;
 }
 
+/* Allow Font Awesome glyphs to use their icon font even inside the shadow root */
+.fa,
+.fa::before,
+.fa::after {
+  font-family: "FontAwesome" !important;
+  font-style: normal;
+  font-weight: normal;
+}
 
 @page {
     size: A4;
