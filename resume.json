@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "theme": "caffeine-custom",
+    "generatedOn": "2025-06-05"
+  },
+  "basics": {
+    "name": "Ask Haugerud Hovik",
+    "label": "MECHANICAL / AEROSPACE ENGINEER",
+    "email": "ask.hovik@gmail.com",
+    "phone": "+47 905 93 845",
+    "summary": "Mechanical and aerospace engineering student with extensive hands-on experience leading student rocketry teams, designing and testing bi-liquid rocket engines, and working in aircraft manufacturing environments.",
+    "location": {
+      "city": "Trondheim, ",
+      "region": "Norway"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ask-haugerud-hovik",
+        "url": "https://www.linkedin.com/in/ask-haugerud-hovik-b69bb7214/"
+      },
+      {
+        "network": "Spotify",
+        "username": "Romkapsel podcast appearance",
+        "url": "https://open.spotify.com/episode/5iBcXr4S9aIijnQZ0kReOh"
+      }
+    ],
+    "picture": "profile_pic.jpg"
+  },
+  "work": [
+        {
+      "company": "Rocket Factory Augsburg",
+      "position": "PROPULSION ENGINEERING INTERN",
+      "url": "https://www.rfa.space/",
+      "startDate": "2024-09",
+      "endDate": "2025-02",
+      "summary": "Fast-paced environment working with critical components of the Helix staged combustion rocket engine. Multidisciplinary work on production, design and documentation.",
+      "highlights": [
+                "Planned and conducted tests for valves and instrumentation",
+                "Designed metal 3D-printed parts, engine components, and production jigs"
+      
+      ]
+      
+    },
+    {
+      "company": "Propulse NTNU",
+      "position": "CHIEF TECHNICAL OFFICER",
+      "url": "https://propulse.no",
+      "startDate": "2023-08",
+      "endDate": "2024-07",
+      "summary": "Propulse is a student rocketry team at NTNU. Defined the technical scope of the Propulse NTNU sounding-rocket programme and led a 60 member team designing and testing bi-liquid rocket engines.",
+      "highlights": [
+        "Guided technical direction for the 'Stetind' and 'Valemon' rockets, achieving top placement in the international student rocketry competition EuRoC",
+        "Oversaw subsystem leads across propulsion, structures, recovery, and avionics",
+        "Mentor (2022), Chief Mechanical Engineer (2021), Recovery Engineer (2020) in earlier roles at Propulse"
+      ]
+      
+    },
+    {
+      "company": "Delft Aerospace Rocket Engineering (DARE)",
+      "position": "RECOVERY ENGINEER",
+      "url": "https://dare.tudelft.nl",
+      "startDate": "2022-09",
+      "endDate": "2023-06",
+      "summary": "DARE is a student rocketry team based out of TU Delft. Worked within the recovery team to design a dual-parachute recovery system for Project DODO."
+    },
+    {
+      "company": "TU Delft - Aircraft Manufacturing Lab",
+      "position": "CONSTRUCTION LEAD",
+      "url": "https://www.tudelft.nl",
+      "startDate": "2023-01",
+      "endDate": "2023-06",
+      "summary": "Led hands-on manufacturing of the RV-12 kit aircraft in a real production environment, ensuring all work followed certified procedures and documentation standards."
+    },
+    {
+      "company": "Cappelen Damm",
+      "position": "ILLUSTRATOR",
+      "url": "https://www.cappelendamm.no",
+      "startDate": "2021-06",
+      "endDate": "2021-08",
+      "summary": "Illustrated the Art & Crafts curriculum for a digital textbook during summer employment."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Norwegian University of Science and Technology (NTNU)",
+      "url": "https://www.ntnu.edu",
+      "area": "Mechanical Engineering",
+      "studyType": "Master's",
+      "startDate": "2019-08",
+      "endDate": "2025-07",
+      "score": "",
+      "courses": [
+        "Specialisation in Fluid Dynamics", 
+        "Institute of Energy and Process Engineering"
+      ]
+    },
+    {
+      "institution": "Delft University of Technology (TU Delft)",
+      "url": "https://www.tudelft.nl",
+      "area": "Aerospace Engineering",
+      "studyType": "Exchange Year",
+      "startDate": "2022-08",
+      "endDate": "2023-06",
+      "courses": [
+        "Specialisation in Flight Performance and Propulsion",
+        "Faculty of Aerospace Engineering"
+      ]
+    },
+    {
+      "institution": "Royal Danish Academy of Fine Arts (KADK)",
+      "url": "https://kadk.dk",
+      "area": "Architecture",
+      "studyType": "Individual Courses",
+      "startDate": "2018-08",
+      "endDate": "2019-06"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming and Scripting",
+      "keywords": [
+        "Python",
+        "Matlab",
+        "C++", 
+        "Linux/Unix", 
+        "Git"
+      ]
+    },
+    {
+      "name": "Engineering Software",
+      "keywords": [
+        "OpenFOAM",
+        "Ansys Fluent",
+        "3DExperience/CATIA",
+        "Siemens NX",
+        "SolidWorks",
+        "Fusion 360",
+        "FreeCAD",
+        "Rhino"
+      ]
+    },
+    {
+      "name": "Design & Media Tools",
+      "keywords": [
+        "Photoshop/GIMP",
+        "InDesign/Scribus",
+        "Premiere/Kdenlive"
+      ]
+    },
+    {
+      "name": "Engineering Skills",
+      "keywords": [
+        "Fluid mechanics",
+        "Aerodynamics",
+        "Numerical methods (FVM/FDM)",
+        "Computational Fluid Dynamics",
+        "Finite Element Method",
+        "Optimisation/MDO",
+        "Engineering Analysis",
+        "Wind tunnel testing",
+        "Sheet metal work",
+        "Composites",
+        "Metal 3D-printing",
+        "Aircraft manufacturing",
+        "Testing",
+        "Machining", 
+        "Product Design",
+        "Verification & Validation",
+        "Quality Assurance", 
+        "Project Planning", 
+        "Visualisation/Drawing"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Norwegian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "references": [
+    {
+      "name": "Arch Pleumpanya, Rocket Factory Augsburg",
+      "reference": ["Email: arch.pleumpanya@rfa.space \u0020\u00A0\u0020\u00A0\u0020\u00A0\u0020\u00A0\u0020\u00A0\u0020\u00A0\u00A0\u0020\u00A0\u0020\u00A0\u0020\u00A0 Company Phone: +49 821999576"]
+    },
+    {
+      "name": "Simen Flåtter Flo, Propulse NTNU",
+      "reference": "Phone: +47 465 00 878"
+    },
+    {
+      "name": "Lise Wulff, Cappelen Damm",
+      "reference": "Phone: +47 930 83 979"
+    }
+
+  ]
+}

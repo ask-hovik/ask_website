@@ -5,13 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run cv:html && vite build && npm run cv:pdf",
+    "cv:html": "resume export src/resume.html --theme ./themes/caffeine-custom",
+    "cv:pdf": "node scripts/generate_cv_pdf.mjs",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "font-awesome": "^4.7.0",
     "gh-pages": "^6.3.0",
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "resume-cli": "^3.0.8",
     "typescript": "~5.9.3",
     "vite": "npm:rolldown-vite@7.1.14"
   },

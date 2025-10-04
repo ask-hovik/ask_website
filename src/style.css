@@ -273,3 +273,38 @@ pre {
   .site-header { padding: 0.5rem 0.7rem; }
   .nav { top: 58px; left: 8px; }
 }
+
+/* ==== CV print isolation ==== */
+@media print {
+  /* Hide everything except the Shadow DOM host with the CV */
+  body * {
+    visibility: hidden !important;
+  }
+
+  /* Show only the host and its contents */
+  #cv-shadow-host,
+  #cv-shadow-host * {
+    visibility: visible !important;
+  }
+
+  /* Make the host fill the printable area */
+  .cv-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+  #cv-shadow-host {
+    display: block !important;
+    position: static !important;
+  }
+
+  /* Don’t print the sticky header / nav */
+  .site-header,
+  .nav {
+    display: none !important;
+  }
+
+  /* White background for paper */
+  body { background: #fff !important; }
+}
+

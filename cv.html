@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Ask Hovik – CV</title>
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
     <header class="site-header">
@@ -29,12 +29,13 @@
       </nav>
     </header>
 
-    <main id="app" class="container">
-      <h1>Curriculum Vitae</h1>
-      <p>My CV content will go here…</p>
+    <!-- Keep .container so layout matches the other pages -->
+    <main id="app" class="container cv-container">
+      <!-- Shadow host where the resume will be injected -->
+      <div id="cv-shadow-host" class="cv-host"></div>
     </main>
 
-    <script type="module" src="/src/nav.ts"></script>
-    <script type="module" src="/src/cv.ts"></script>
+    <script type="module" src="./src/nav.ts"></script>
+    <script type="module" src="./src/cv.ts"></script>
   </body>
 </html>
