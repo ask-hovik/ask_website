@@ -52,15 +52,9 @@ async function mountCV() {
       background: #ffffff;
       color: #39424B;
       overflow-x: hidden;  /* avoid horizontal scroll revealing site background */
-      margin: 0;                /* new */
-      padding: 0;               /* new */
     }
     :host { overflow-x: hidden; }
 
-    .cv-root .page {
-      margin: 0 auto !important;     /* already mostly 0; enforce */
-      padding-bottom: 0 !important;  /* don’t add bottom padding on mobile */
-  }
     /* Remove card shadows/borders inside the CV (visual seams) */
     .cv-root, .cv-root * { box-shadow: none !important; }
 
@@ -107,26 +101,22 @@ async function mountCV() {
   function applyScale() {
     if (!host || !page || !scaler) return;
 
-    // Measure the page BEFORE applying transform
-    const prev = page.style.transform;
-    page.style.transform = 'none';
-
-    // Intrinsic layout size (unscaled)
-    const naturalWidth  = page.offsetWidth  || 794;  // ~210mm @96dpi
-    const naturalHeight = page.offsetHeight || 1123; // ~297mm @96dpi
-
-    // Available width in the host
+    // Available width is the host’s content width
     const available = host.getBoundingClientRect().width;
 
-    // Scale to fit width, never enlarge >1
-    const s = Math.max(0.1, Math.min(1, (available - 2) / naturalWidth));
+    // The resume "paper" has a fixed intrinsic width (~210mm ≈ 794px @96dpi).
+    // Use scrollWidth to avoid current transform effects.
+    const pageWidth = page.scrollWidth || page.getBoundingClientRect().width || 794;
 
-    // Apply scale
+    // Scale to fit, but don't enlarge above 1, and keep a lower bound to avoid zero/NaN
+    const s = Math.max(0.1, Math.min(1, (available - 2) / pageWidth));
+
     page.style.transform = `scale(${s})`;
 
-    // Set the scaler’s box to the scaled page size (tight, no extra whitespace)
-    scaler.style.width  = `${naturalWidth  * s}px`;
-    scaler.style.height = `${naturalHeight * s}px`; 
+    // Set the scaler’s size to the scaled page so layout/scroll height is correct
+    const pageHeight = page.scrollHeight || page.getBoundingClientRect().height;
+    scaler.style.width = `${pageWidth * s}px`;
+    scaler.style.height = `${pageHeight * s}px`;
   }
 
   // Run on mount and on size/orientation changes
