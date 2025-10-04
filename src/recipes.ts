@@ -20,7 +20,8 @@ type RecipeFull = {
 };
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
-const INDEX_URL = "/recipes/index.json";
+const BASE_URL = import.meta.env.BASE_URL ?? "/";
+const INDEX_URL = `${BASE_URL}recipes/index.json`;
 
 let index: RecipeIndexItem[] = [];
 let activeTags: Set<string> = new Set();
@@ -91,7 +92,7 @@ function escapeHtml(s: string) {
 }
 
 async function renderDetail(slug: string) {
-  const url = `/recipes/${slug}.json`;
+    const url = `${BASE_URL}recipes/${slug}.json`;
   let data: RecipeFull;
 
   try {
