@@ -4,7 +4,7 @@ import path from 'path';
 // If this is a project page like https://USERNAME.github.io/REPO,
 // set base to '/REPO/'. If it's your user site (USERNAME.github.io),
 // set base to '/' or just omit it.
-const base = '/ask_website/';
+const base = '/';
 
 export default defineConfig({
   base,
