@@ -21,7 +21,10 @@ type RecipeFull = {
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 const BASE_URL = import.meta.env.BASE_URL ?? "/";
-const INDEX_URL = `${BASE_URL}recipes/index.json`;
+const BASE_AS_URL = new URL(BASE_URL, window.location.origin);
+
+const resolveRecipeAsset = (path: string) => new URL(path, BASE_AS_URL).toString();
+const INDEX_URL = resolveRecipeAsset("recipes/index.json");
 
 let index: RecipeIndexItem[] = [];
 let activeTags: Set<string> = new Set();
