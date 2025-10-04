@@ -22,3 +22,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+
+// src/main.ts
+// console.log("Home page script loaded!");
+
