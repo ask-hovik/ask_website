@@ -1,0 +1,9 @@
+// for publishing on github pages
+git add .
+git commit -m "Update site"
+git push
+npm run build
+npx gh-pages -d dist
+
+// for running a local dev build
+npm run dev
