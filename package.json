@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run cv:html && vite build && npm run cv:pdf",
+    "build": "npm run cv:html && vite build",
     "prebuild": "node scripts/build-recipes.mjs",
     "cv:html": "resume export src/resume.html --theme ./themes/caffeine-custom",
     "cv:pdf": "node scripts/generate_cv_pdf.mjs",
