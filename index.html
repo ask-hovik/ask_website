@@ -2,26 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home - Ask Hovik</title>
-    <script type="module" crossorigin src="/ask_website/assets/index-CllND7Sg.js"></script>
-    <link rel="stylesheet" crossorigin href="/ask_website/assets/index-Ct2J8gpm.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ask Hovik – Home</title>
+    <script type="module" crossorigin src="/ask_website/assets/index-louNUM1X.js"></script>
+    <link rel="stylesheet" crossorigin href="/ask_website/assets/index-1XYGpFn6.css">
   </head>
   <body>
-    <h1>Welcome to my website!</h1>
-    <p>This is the home page. More content coming soon. add something make a change.</p>
+    <header class="site-header">
+      <button
+        class="nav-toggle"
+        aria-label="Open menu"
+        aria-controls="site-nav"
+        aria-expanded="false"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <a class="brand" href="./">Ask Hovik</a>
+
+      <!-- spacer -->
+      <span class="header-spacer" aria-hidden="true"></span>
+
+      <!-- Vertical stack menu (hidden until toggled) -->
+      <nav id="site-nav" class="nav" data-open="false">
+        <a href="./">Home</a>
+        <a href="./cv.html">CV</a>
+        <a href="./recipes.html">Recipes</a>
+      </nav>
+    </header>
+
+    <main id="app" class="container">
+      <h1>Welcome</h1>
+      <p>Under construction.</p>
+    </main>
 
   </body>
 </html>
-
-
-<header class="site-header">
-  <nav>
-    <a href="./">Home</a>
-    <a href="./cv.html">CV</a>
-    <a href="./recipes.html">Recipes</a>
-
-    <!-- Theme toggle (cycles: Auto → Light → Dark) -->
-    <button id="themeToggle" class="theme-toggle" aria-label="Toggle color theme">Auto</button>
-  </nav>
-</header>
