@@ -282,6 +282,12 @@ ul {
 
 
 @media print {
+  .section-header + h4,
+  .item > h4 {
+    clear: both !important;
+    display: block !important;
+    margin-top: 4px !important;
+  }
   /* Keep zero body margin so @page margins apply correctly */
   body {
     margin: 0;
@@ -306,8 +312,8 @@ ul {
     box-shadow: none !important;
     background: none !important;     /* No white overlay to cover content */
     padding: 0 !important;           /* Rely on @page margins instead */
-    page-break-before: always;       /* Each .page starts on a new sheet */
-    border-top: 10px solid #4682B4 !important;
+    page-break-before: auto !important;       /* Each .page starts on a new sheet */
+    
   }
   
   /* Don’t insert a blank first page */
@@ -355,6 +361,65 @@ ul {
     display: none;
   }
   
+}
+
+
+/* =========================
+   PRINT POLISH
+   ========================= */
+@media print {
+  /* 1) Blue bar stays gone & use normal flowing layout */
+  .page {
+    border-top: 0 !important;
+    display: block !important;
+    background: #fff !important;
+
+    /* 2) A little extra breathing room near the bottom edge */
+    padding-bottom: 40px !important;  /* tweak to taste */
+  }
+
+  /* 3) Add a touch more page margin at the bottom (global) */
+  @page {
+    /* top | right | bottom | left */
+    margin: 50px 0 60px 0;  /* bottom was 50px; bump to 60px */
+  }
+
+  /* 4) Keep headings WITH the content that follows (no orphan headings) */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid-page;
+  }
+
+  /* 5) Keep these blocks together — don't split across pages */
+  p,
+  blockquote,
+  ul, ol,
+  li,
+  pre, table,
+  .container,
+  .item,
+  .work-container .item,
+  .education-container .item,
+  .skills-container .container,
+  .languages-container,
+  .section-header {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* 6) Reduce “single stray line at top/bottom of page” in paragraphs/lists */
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* 7) After floated section header, ensure the role/title (h4) starts on a new line */
+  .section-header + h4,
+  .item > h4 {
+    clear: both !important;
+    display: block !important;
+    margin-top: 4px !important;
+  }
 }
 
 
