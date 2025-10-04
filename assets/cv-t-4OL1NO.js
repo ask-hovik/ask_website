@@ -1170,9 +1170,15 @@ ul {
       background: #ffffff;
       color: #39424B;
       overflow-x: hidden;  /* avoid horizontal scroll revealing site background */
+      margin: 0;                /* new */
+      padding: 0;               /* new */
     }
     :host { overflow-x: hidden; }
 
+    .cv-root .page {
+      margin: 0 auto !important;     /* already mostly 0; enforce */
+      padding-bottom: 0 !important;  /* don’t add bottom padding on mobile */
+  }
     /* Remove card shadows/borders inside the CV (visual seams) */
     .cv-root, .cv-root * { box-shadow: none !important; }
 
@@ -1191,4 +1197,4 @@ ul {
 
     /* === Your custom theme CSS (with your border/print fixes) === */
     ${t}
-  `;let u=document.createElement(`div`);u.className=`cv-root`,u.innerHTML=e;let d=u.querySelector(`img[src="profile_pic.jpg"]`);d&&(d.src=n);let f=u.querySelector(`.page`),p=null;f&&(p=document.createElement(`div`),p.className=`cv-scaler`,f.parentElement.insertBefore(p,f),p.appendChild(f)),c.appendChild(l),c.appendChild(u);function m(){if(!o||!f||!p)return;let e=o.getBoundingClientRect().width,t=f.scrollWidth||f.getBoundingClientRect().width||794,n=Math.max(.1,Math.min(1,(e-2)/t));f.style.transform=`scale(${n})`;let r=f.scrollHeight||f.getBoundingClientRect().height;p.style.width=`${t*n}px`,p.style.height=`${r*n}px`}m(),new ResizeObserver(m).observe(o),window.addEventListener(`resize`,m)}o();
+  `;let u=document.createElement(`div`);u.className=`cv-root`,u.innerHTML=e;let d=u.querySelector(`img[src="profile_pic.jpg"]`);d&&(d.src=n);let f=u.querySelector(`.page`),p=null;f&&(p=document.createElement(`div`),p.className=`cv-scaler`,f.parentElement.insertBefore(p,f),p.appendChild(f)),c.appendChild(l),c.appendChild(u);function m(){if(!o||!f||!p)return;f.style.transform,f.style.transform=`none`;let e=f.offsetWidth||794,t=f.offsetHeight||1123,n=o.getBoundingClientRect().width,r=Math.max(.1,Math.min(1,(n-2)/e));f.style.transform=`scale(${r})`,p.style.width=`${e*r}px`,p.style.height=`${t*r}px`}m(),new ResizeObserver(m).observe(o),window.addEventListener(`resize`,m)}o();
