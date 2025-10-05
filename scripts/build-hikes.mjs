@@ -10,19 +10,15 @@ import { XMLParser } from "fast-xml-parser";
 // --- config ---
 const HIKES_DIR = path.resolve("public", "hikes");
 const OUT_FILE = path.join(HIKES_DIR, "index.json");
-// Ignore tiny vertical noise (in meters) when summing ascent/descent:
-const ELEV_THRESHOLD_M = 1.0;
 
 // --- utils ---
 const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "",
-  // GPX often repeats elements that should be arrays; this helps normalize:
-  isArray: (name, jpath, isLeafNode, isAttribute) => {
-    // Treat these as arrays regardless:
-    return ["gpx.trk", "gpx.rte", "gpx.wpt", "trk.trkseg", "trkseg.trkpt", "rte.rtept"].includes(
-      jpath.replace(/\[\d+\]/g, "")
-    );
+  // Normalize common GPX arrays
+  isArray: (name, jpath) => {
+    return ["gpx.trk", "gpx.rte", "gpx.wpt", "trk.trkseg", "trkseg.trkpt", "rte.rtept"]
+      .includes(jpath.replace(/\[\d+\]/g, ""));
   },
 });
 
@@ -31,7 +27,6 @@ function toArray(v) {
 }
 
 function haversineMeters(lat1, lon1, lat2, lon2) {
-  // All args as numbers (degrees)
   const R = 6371000; // meters
   const toRad = (d) => (d * Math.PI) / 180;
   const dLat = toRad(lat2 - lat1);
@@ -44,32 +39,27 @@ function haversineMeters(lat1, lon1, lat2, lon2) {
 }
 
 function parseTimeISO(s) {
-  // Some exporters use Z, some use timezone offsets; Date can parse ISO 8601.
   const t = Date.parse(s);
   return Number.isNaN(t) ? null : t; // ms since epoch
 }
 
 function summarizeTrackPoints(allPts) {
-  // allPts: [{lat, lon, ele?, timeMs?}, ...] across all segments in time order
+  // allPts: [{lat, lon, ele?, timeMs?}, ...] across all segments in order
   let totalDistM = 0;
-  let ascentM = 0;
-  let descentM = 0;
-
   let firstTime = null;
   let lastTime = null;
 
-  for (let i = 1; i < allPts.length; i++) {
-    const p0 = allPts[i - 1];
-    const p1 = allPts[i];
+  // Track max elevation (rounded at the end)
+  let maxEle = -Infinity;
 
-    // distance
-    totalDistM += haversineMeters(p0.lat, p0.lon, p1.lat, p1.lon);
+  for (let i = 0; i < allPts.length; i++) {
+    const p = allPts[i];
+    if (typeof p.ele === "number" && p.ele > maxEle) maxEle = p.ele;
 
-    // elevation gain/drop (with small threshold to suppress noise)
-    if (typeof p0.ele === "number" && typeof p1.ele === "number") {
-      const dz = p1.ele - p0.ele;
-      if (dz >= ELEV_THRESHOLD_M) ascentM += dz;
-      else if (dz <= -ELEV_THRESHOLD_M) descentM += -dz;
+    if (i > 0) {
+      const p0 = allPts[i - 1];
+      const p1 = p;
+      totalDistM += haversineMeters(p0.lat, p0.lon, p1.lat, p1.lon);
     }
   }
 
@@ -82,9 +72,11 @@ function summarizeTrackPoints(allPts) {
 
   const result = {
     distance_km: +(totalDistM / 1000).toFixed(2),
-    ascent_m: Math.round(ascentM),
-    descent_m: Math.round(descentM),
   };
+
+  if (Number.isFinite(maxEle)) {
+    result.max_ele_m = Math.round(maxEle);
+  }
 
   if (firstTime != null && lastTime != null) {
     const elapsedS = Math.max(0, Math.round((lastTime - firstTime) / 1000));
@@ -108,7 +100,6 @@ function extractName(g) {
 }
 
 function collectTrackPoints(g) {
-  // Gather all trk -> trkseg -> trkpt points, preserving per-segment order.
   const trks = toArray(g?.gpx?.trk);
   const pts = [];
 
@@ -123,11 +114,9 @@ function collectTrackPoints(g) {
 
         const eleRaw = p?.ele;
         const ele =
-          typeof eleRaw === "number"
-            ? eleRaw
-            : eleRaw != null
-            ? Number(eleRaw)
-            : undefined;
+          typeof eleRaw === "number" ? eleRaw :
+          eleRaw != null ? Number(eleRaw) : undefined;
+
         const timeMs = p?.time ? parseTimeISO(p.time) : undefined;
 
         pts.push({
@@ -170,16 +159,17 @@ function buildIndex() {
         path.basename(file, path.extname(file)).replace(/[_-]+/g, " ");
 
       const pts = collectTrackPoints(g);
+      if (pts.length === 0) {
+        console.warn(`⚠️ No track points in ${file} — skipping distance/alt/time.`);
+      }
       const stats = summarizeTrackPoints(pts);
 
       const entry = {
         title: name,
         file,
         url: `/hikes/${file}`,
-        distance_km: stats.distance_km,
-        ascent_m: stats.ascent_m,
-        descent_m: stats.descent_m,
-        // Only include total_time_s if present (non-zero)
+        distance_km: stats.distance_km ?? 0,
+        ...(stats.max_ele_m != null ? { max_ele_m: stats.max_ele_m } : {}),
         ...(stats.total_time_s ? { total_time_s: stats.total_time_s } : {}),
       };
 
