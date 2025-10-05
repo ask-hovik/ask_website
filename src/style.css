@@ -325,5 +325,17 @@ pre {
 .recipe-list a.recipe-link { font-weight: 600; text-decoration: none; }
 .recipe-list .muted { color: var(--muted); }
 .small { font-size: 0.9rem; }
+.recipe-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 1.4rem;
+}
 
 .btn--small { padding: .3rem .55rem; border-radius: 8px; }
+
+
+#app, main {
+  padding-bottom: 4rem;
+}
+

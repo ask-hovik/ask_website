@@ -104,7 +104,7 @@ async function renderDetail(slug: string) {
     data = await res.json();
   } catch (e) {
     app.innerHTML = `
-      <a href="#" class="btn" style="margin-bottom: .8rem;">← All recipes</a>
+      <a href="#" class="btn recipe-back">← All recipes</a>
       <div class="card"><strong>Could not load recipe.</strong><br><span class="muted">${String(e)}</span></div>`;
     wireBackLink();
     return;
@@ -115,7 +115,7 @@ async function renderDetail(slug: string) {
   `).join("");
 
   app.innerHTML = `
-    <a href="#" class="btn" style="margin-bottom: .8rem;">← All recipes</a>
+    <a href="#" class="btn recipe-back">← All recipes</a>
 
     <h1>${escapeHtml(data.title)}</h1>
     <div class="muted small">~${data.time_minutes} min · serves ${data.serves} · ${data.tags.map(escapeHtml).join(", ")}</div>
