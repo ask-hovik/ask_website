@@ -339,3 +339,10 @@ pre {
   padding-bottom: 4rem;
 }
 
+.welcome-image {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 12px; /* optional for rounded corners */
+}
