@@ -15,5 +15,5 @@
     { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
   ],
   "steps": "Kjør nøtter, kikerter, havregryn, løk og hvitløk i foodprosessor.\nBland inn egg, olje og krydder.\nForm burgere og stek i panne 4–5 min på hver side.\nServer i burgerbrød med ønsket tilbehør.",
-  "tags": ["vegetar", "burger", "middag", "nøtter"]
+  "tags": ["vegetar", "middag"]
 }

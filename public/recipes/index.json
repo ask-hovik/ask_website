@@ -7,8 +7,7 @@
     "tags": [
       "fisk",
       "middag",
-      "ovn",
-      "norsk"
+      "ovn"
     ]
   },
   {
@@ -19,7 +18,6 @@
     "tags": [
       "potet",
       "middag",
-      "tilbehør",
       "ovn"
     ]
   },
@@ -29,9 +27,8 @@
     "time_minutes": 150,
     "serves": 2,
     "tags": [
-      "bakst",
       "brød",
-      "grunnoppskrift"
+      "bakst"
     ]
   },
   {
@@ -40,9 +37,8 @@
     "time_minutes": 70,
     "serves": 4,
     "tags": [
-      "dinner",
-      "beef",
-      "stew",
+      "middag",
+      "gryte",
       "spicy"
     ]
   },
@@ -53,7 +49,6 @@
     "serves": 4,
     "tags": [
       "fisk",
-      "gresk",
       "middag",
       "ovn"
     ]
@@ -66,7 +61,6 @@
     "tags": [
       "suppe",
       "vegetar",
-      "norsk",
       "middag"
     ]
   },
@@ -76,8 +70,6 @@
     "time_minutes": 15,
     "serves": 4,
     "tags": [
-      "saus",
-      "grunnoppskrift",
       "tilbehør"
     ]
   },
@@ -87,10 +79,8 @@
     "time_minutes": 180,
     "serves": 4,
     "tags": [
-      "lam",
       "gryte",
-      "middag",
-      "langtid"
+      "middag"
     ]
   },
   {
@@ -100,7 +90,6 @@
     "serves": 4,
     "tags": [
       "sushi",
-      "japansk",
       "fisk",
       "ris"
     ]
@@ -111,10 +100,8 @@
     "time_minutes": 90,
     "serves": 4,
     "tags": [
-      "kylling",
       "gryte",
-      "middag",
-      "fransk"
+      "middag"
     ]
   },
   {
@@ -124,9 +111,7 @@
     "serves": 4,
     "tags": [
       "vegetar",
-      "burger",
-      "middag",
-      "nøtter"
+      "middag"
     ]
   },
   {
@@ -135,10 +120,8 @@
     "time_minutes": 35,
     "serves": 4,
     "tags": [
-      "salat",
       "vegetar",
-      "tilbehør",
-      "kaldrett"
+      "middag"
     ]
   },
   {
@@ -149,8 +132,7 @@
     "tags": [
       "vegetar",
       "gryte",
-      "middag",
-      "varmrett"
+      "middag"
     ]
   },
   {
@@ -159,9 +141,7 @@
     "time_minutes": 90,
     "serves": 6,
     "tags": [
-      "tradisjonelt",
       "suppe",
-      "lam",
       "middag"
     ]
   },
@@ -172,9 +152,7 @@
     "serves": 4,
     "tags": [
       "pasta",
-      "middag",
-      "italiensk",
-      "kjøtt"
+      "middag"
     ]
   },
   {
@@ -184,9 +162,7 @@
     "serves": 2,
     "tags": [
       "tilbehør",
-      "vegetar",
-      "raskt",
-      "sunt"
+      "vegetar"
     ]
   },
   {
@@ -195,10 +171,7 @@
     "time_minutes": 35,
     "serves": 4,
     "tags": [
-      "suppe",
-      "asiatisk",
-      "kylling",
-      "spicy"
+      "suppe"
     ]
   },
   {
@@ -208,8 +181,7 @@
     "serves": 4,
     "tags": [
       "fisk",
-      "middag",
-      "tradisjonelt"
+      "middag"
     ]
   },
   {
@@ -218,10 +190,7 @@
     "time_minutes": 50,
     "serves": 4,
     "tags": [
-      "kjøtt",
-      "middag",
-      "tyrkisk",
-      "småretter"
+      "middag"
     ]
   }
 ]
