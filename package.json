@@ -6,14 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run cv:html && vite build",
-    "prebuild": "node scripts/build-recipes.mjs",
+    "prebuild": "node scripts/build-hikes.mjs && node scripts/build-recipes.mjs",
     "cv:html": "resume export src/resume.html --theme ./themes/caffeine-custom",
     "cv:pdf": "node scripts/generate_cv_pdf.mjs",
+    "build:hikes": "node scripts/build-hikes.mjs",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "fast-xml-parser": "^5.3.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^6.3.0",
     "jsonresume-theme-caffeine": "^1.2.3",
