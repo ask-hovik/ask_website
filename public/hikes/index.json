@@ -1,5 +1,12 @@
 [
   {
+    "title": "Nordagutu",
+    "file": "nordagutu.gpx",
+    "url": "/hikes/nordagutu.gpx",
+    "distance_km": 70,
+    "max_ele_m": 848
+  },
+  {
     "title": "Rjukan",
     "file": "rjukan.gpx",
     "url": "/hikes/rjukan.gpx",
