@@ -1,0 +1,1 @@
+import"./style-S-zLEGWR.js";document.querySelector(`#app`);

@@ -1,4 +1,4 @@
-import"./style-B32uoe-j.js";var e=`<!doctype html>
+import"./style-S-zLEGWR.js";var e=`<!doctype html>
 <html>
 	<head>
 	<meta charset="utf-8">

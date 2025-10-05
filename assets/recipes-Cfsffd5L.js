@@ -1,4 +1,4 @@
-import"./style-B32uoe-j.js";var e=document.querySelector(`#app`),t=`/`,n=new URL(t,window.location.origin),r=(e=>new URL(e,n).toString())(`recipes/index.json`),i=[],a=new Set;function o(){let t=Array.from(new Set(i.flatMap(e=>e.tags))).sort().map(e=>`<button class="chip ${a.has(e)?`chip--active`:``}" data-tag="${e}">${e}</button>`).join(``),n=[...i].filter(e=>a.size===0||Array.from(a).every(t=>e.tags.includes(t))).map(e=>`
+import"./style-S-zLEGWR.js";var e=document.querySelector(`#app`),t=`/`,n=new URL(t,window.location.origin),r=(e=>new URL(e,n).toString())(`recipes/index.json`),i=[],a=new Set;function o(){let t=Array.from(new Set(i.flatMap(e=>e.tags))).sort().map(e=>`<button class="chip ${a.has(e)?`chip--active`:``}" data-tag="${e}">${e}</button>`).join(``),n=[...i].filter(e=>a.size===0||Array.from(a).every(t=>e.tags.includes(t))).map(e=>`
       <li>
         <a class="recipe-link" href="#/${e.slug}">${e.title}</a>
         <div class="muted small">
@@ -15,11 +15,11 @@ import"./style-B32uoe-j.js";var e=document.querySelector(`#app`),t=`/`,n=new URL
       ${n||`<li class='muted'>No recipes match the selected tags.</li>`}
     </ul>
   `,e.querySelectorAll(`.chip`).forEach(e=>{e.addEventListener(`click`,()=>{let t=e.dataset.tag;a.has(t)?a.delete(t):a.add(t),o()})});let r=e.querySelector(`#clear-tags`);r&&r.addEventListener(`click`,()=>{a.clear(),o()})}function s(e){return e.split(/\n+/).map(e=>`<p>${c(e)}</p>`).join(``)}function c(e){return e.replace(/[&<>"']/g,e=>({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`})[e])}async function l(n){let r=`${t}recipes/${n}.json`,i;try{let e=await fetch(r);if(!e.ok)throw Error(`${e.status} ${e.statusText}`);i=await e.json()}catch(t){e.innerHTML=`
-      <a href="#" class="btn" style="margin-bottom: .8rem;">← All recipes</a>
+      <a href="#" class="btn recipe-back">← All recipes</a>
       <div class="card"><strong>Could not load recipe.</strong><br><span class="muted">${String(t)}</span></div>`,u();return}let a=i.ingredients.map(e=>`
       <tr><td>${e.item}</td><td>${e.amount}</td><td>${e.unit}</td></tr>
   `).join(``);e.innerHTML=`
-    <a href="#" class="btn" style="margin-bottom: .8rem;">← All recipes</a>
+    <a href="#" class="btn recipe-back">← All recipes</a>
 
     <h1>${c(i.title)}</h1>
     <div class="muted small">~${i.time_minutes} min · serves ${i.serves} · ${i.tags.map(c).join(`, `)}</div>
