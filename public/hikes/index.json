@@ -19,5 +19,12 @@
     "url": "/hikes/rondane.gpx",
     "distance_km": 90.85,
     "max_ele_m": 2177
+  },
+  {
+    "title": "Vassfaret",
+    "file": "vassfaret.gpx",
+    "url": "/hikes/vassfaret.gpx",
+    "distance_km": 48.87,
+    "max_ele_m": 1165
   }
 ]
