@@ -41,10 +41,10 @@ function fmtDuration(totalSec?: number) {
   return `${h} h ${mm} min`;
 }
 
-function gpxStudioUrl(absGpxUrl: string) {
-  const u = new URL("https://gpx.studio/app");
-  u.searchParams.set("url", absGpxUrl);
-  return u.toString();
+function gpxStudioUrl(file: string) {
+  // Change this to your raw GitHub URL path:
+  const raw = `https://raw.githubusercontent.com/ask-hovik/ask_website/public/hikes/${file}`;
+  return `https://gpx.studio/app?url=${encodeURIComponent(raw)}`;
 }
 
 function renderList(items: HikeIndexItem[]) {
