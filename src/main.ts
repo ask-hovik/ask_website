@@ -13,8 +13,7 @@ if (app) {
       in whatever life throws at me.
     </p>
     <p>
-      Browse this webpage to know more about me, or to make use of the bits and bobs 
-      I have put here and there.
+      I'm in the process of filling this webpage with fun things. Enjoy exploring!
     </p>
     <img src="${snegle}" alt="Just a snail" class="welcome-image" />
   `;
