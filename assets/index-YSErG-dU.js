@@ -1,4 +1,4 @@
-import"./style-Bo5Yka0r.js";var e=document.querySelector(`#app`);e&&(e.innerHTML=`
+import"./style-Bo5Yka0r.js";var e=`/assets/snegle-yK8kS-up.png`,t=document.querySelector(`#app`);t&&(t.innerHTML=`
     <h1>Welcome</h1>
     <p>
       This is the personal web page of <strong>Ask Haugerud Hovik</strong>.  
@@ -9,5 +9,5 @@ import"./style-Bo5Yka0r.js";var e=document.querySelector(`#app`);e&&(e.innerHTML
       Browse this webpage to know more about me, or to make use of the bits and bobs 
       I have put here and there.
     </p>
-    <img src="${snegle}" alt="Just a snail" class="welcome-image" />
+    <img src="${e}" alt="Just a snail" class="welcome-image" />
   `);
