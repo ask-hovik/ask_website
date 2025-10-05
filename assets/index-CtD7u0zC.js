@@ -6,8 +6,7 @@ import"./style-Bo5Yka0r.js";var e=`/assets/snegle-yK8kS-up.png`,t=document.query
       in whatever life throws at me.
     </p>
     <p>
-      Browse this webpage to know more about me, or to make use of the bits and bobs 
-      I have put here and there.
+      I'm in the process of filling this webpage with fun things. Enjoy exploring!
     </p>
     <img src="${e}" alt="Just a snail" class="welcome-image" />
   `);
