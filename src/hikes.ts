@@ -2,9 +2,9 @@
 import "./style.css";
 
 type HikeIndexItem = {
-  title: string;
+  title: string;         // from metadata or trk.name
   file: string;          // e.g. "rjukan.gpx"
-  url: string;           // e.g. "/hikes/rjukan.gpx"
+  url: string;           // e.g. "/hikes/rjukan.gpx" (not used for GPX Studio, but kept)
   distance_km: number;   // e.g. 12.34
   ascent_m: number;      // total ascent (m)
   descent_m: number;     // total descent (m)
@@ -14,16 +14,23 @@ type HikeIndexItem = {
 const app = document.querySelector<HTMLDivElement>("#app")!;
 const BASE_URL = import.meta.env.BASE_URL ?? "/";
 const BASE_AS_URL = new URL(BASE_URL, window.location.origin);
-
 const resolveAsset = (p: string) => new URL(p, BASE_AS_URL).toString();
+
+// Load the generated index.json
 const INDEX_URL = resolveAsset("hikes/index.json");
 
 function escapeHtml(s: string) {
-  return s.replace(/[&<>"']/g, (m) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[m]!));
+  return s.replace(/[&<>"']/g, (m) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;",
+  }[m]!));
 }
 
 function fmtDistance(km: number) {
-  // 1 decimal for < 10 km, else 2 decimals trimmed to one if trailing zero
+  // 2 decimals under 10 km, 1 decimal otherwise
   const v = km < 10 ? km.toFixed(2) : km.toFixed(1);
   return `${Number(v)} km`;
 }
@@ -41,16 +48,23 @@ function fmtDuration(totalSec?: number) {
   return `${h} h ${mm} min`;
 }
 
-function gpxStudioUrl(file: string) {
-  // Change this to your raw GitHub URL path:
-  const raw = `https://raw.githubusercontent.com/ask-hovik/ask_website/main/public/hikes/${file}`;
-  return `https://gpx.studio/app?url=${encodeURIComponent(raw)}`;
+/**
+ * Build a GPX Studio link using the working format:
+ * https://gpx.studio/app?files=[ "ABSOLUTE_HTTPS_GPX_URL" ]
+ * We use the raw GitHub host since it has CORS enabled.
+ */
+const GITHUB_RAW_BASE =
+  "https://raw.githubusercontent.com/ask-hovik/ask_website/main/public/hikes/";
+
+function gpxStudioUrlForFile(file: string) {
+  const rawUrl = `${GITHUB_RAW_BASE}${file}`;
+  const filesParam = encodeURIComponent(JSON.stringify([rawUrl]));
+  return `https://gpx.studio/app?files=${filesParam}`;
 }
 
 function renderList(items: HikeIndexItem[]) {
   const listHtml = items.map((it) => {
-    const absGpx = resolveAsset(it.url.replace(/^\//, "")); // ensure relative works with BASE_URL
-    const studio = gpxStudioUrl(absGpx);
+    const studio = gpxStudioUrlForFile(it.file);
     const subtitleParts = [
       fmtDistance(it.distance_km),
       fmtElev(it.ascent_m, it.descent_m),
@@ -82,10 +96,9 @@ async function boot() {
     const res = await fetch(INDEX_URL, { cache: "no-cache" });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = (await res.json()) as HikeIndexItem[];
-    // basic sanity: filter out items missing essentials
     const clean = data.filter(d =>
       typeof d.title === "string" &&
-      typeof d.url === "string" &&
+      typeof d.file === "string" &&
       Number.isFinite(d.distance_km) &&
       Number.isFinite(d.ascent_m) &&
       Number.isFinite(d.descent_m)
