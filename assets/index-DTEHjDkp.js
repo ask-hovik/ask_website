@@ -1,0 +1,1 @@
+import"./style-B32uoe-j.js";document.querySelector(`#app`);
