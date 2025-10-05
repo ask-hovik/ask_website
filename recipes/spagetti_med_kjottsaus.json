@@ -14,5 +14,5 @@
     { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
   ],
   "steps": "Kok spaghetti etter anvisning.\nStek kjøttdeig i olje, tilsett løk, gulrot og selleri i små terninger.\nHa i hvitløk og tomater, la koke 15 min.\nSmak til med salt og pepper.\nServer kjøttsaus over spaghettien.",
-  "tags": ["pasta", "middag", "italiensk", "kjøtt"]
+  "tags": ["pasta", "middag"]
 }

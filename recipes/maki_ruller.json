@@ -15,5 +15,5 @@
     { "item": "Wasabi", "amount": 1, "unit": "ts" }
   ],
   "steps": "Kok sushiris og bland med eddik, sukker og salt.\nSkjær laks, agurk og avokado i strimler.\nLegg nori på en bambusmatte, bre ris utover.\nLegg fyll i midten og rull stramt sammen.\nSkjær i biter og server med soyasaus og wasabi.",
-  "tags": ["sushi", "japansk", "fisk", "ris"]
+  "tags": ["sushi", "fisk", "ris"]
 }

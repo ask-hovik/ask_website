@@ -13,5 +13,5 @@
     { "item": "Vårløk", "amount": 2, "unit": "pc" }
   ],
   "steps": "Forvarm ovn til 220 °C.\nVask og tørk potetene, gni inn med olje og salt.\nBak potetene i 1 time til skallet er sprøtt og de er myke inni.\nSkjær et kryss på toppen, klem forsiktig.\nFyll med smør, rømme, ost, bacon og vårløk.",
-  "tags": ["potet", "middag", "tilbehør", "ovn"]
+  "tags": ["potet", "middag", "ovn"]
 }

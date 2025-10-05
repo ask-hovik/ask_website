@@ -13,5 +13,5 @@
     { "item": "Salt", "amount": 1, "unit": "tsp" }
   ],
   "steps": "Sauté onion and garlic.\nBrown the beef.\nAdd spices, tomatoes, beans.\nSimmer 45–60 min.\nAdjust seasoning.",
-  "tags": ["dinner", "beef", "stew", "spicy"]
+  "tags": ["middag", "gryte", "spicy"]
 }

@@ -1,17 +1,17 @@
 [
   {
-    "title": "Å",
-    "file": "aa.gpx",
-    "url": "/hikes/aa.gpx",
-    "distance_km": 20.4,
-    "max_ele_m": 368
-  },
-  {
     "title": "Etnefjella",
     "file": "etnefjella.gpx",
     "url": "/hikes/etnefjella.gpx",
     "distance_km": 27.54,
     "max_ele_m": 963
+  },
+  {
+    "title": "Fosen",
+    "file": "fosen.gpx",
+    "url": "/hikes/fosen.gpx",
+    "distance_km": 20.4,
+    "max_ele_m": 368
   },
   {
     "title": "Nordagutu",
