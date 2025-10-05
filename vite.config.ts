@@ -14,6 +14,7 @@ export default defineConfig({
         index: path.resolve(__dirname, 'index.html'),
         cv: path.resolve(__dirname, 'cv.html'),
         recipes: path.resolve(__dirname, 'recipes.html'),
+        hikes: path.resolve(__dirname, 'hikes.html'),
       },
     },
   },
