@@ -80,6 +80,9 @@ function renderList(items: HikeIndexItem[]) {
 
   app.innerHTML = `
     <h1>Hikes</h1>
+    <p>
+    A collection of hikes I have enjoyed throughout the years.
+    </p>
     <ul class="recipe-list">
       ${listHtml || "<li class='muted'>No hikes found.</li>"}
     </ul>
