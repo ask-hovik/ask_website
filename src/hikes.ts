@@ -43,7 +43,7 @@ function fmtDuration(totalSec?: number) {
 
 function gpxStudioUrl(file: string) {
   // Change this to your raw GitHub URL path:
-  const raw = `https://raw.githubusercontent.com/ask-hovik/ask_website/public/hikes/${file}`;
+  const raw = `https://raw.githubusercontent.com/ask-hovik/ask_website/main/public/hikes/${file}`;
   return `https://gpx.studio/app?url=${encodeURIComponent(raw)}`;
 }
 
