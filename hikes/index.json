@@ -5,5 +5,12 @@
     "url": "/hikes/rjukan.gpx",
     "distance_km": 55.53,
     "max_ele_m": 1874
+  },
+  {
+    "title": "New file 1",
+    "file": "rondane.gpx",
+    "url": "/hikes/rondane.gpx",
+    "distance_km": 90.85,
+    "max_ele_m": 1277
   }
 ]
