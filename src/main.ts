@@ -1,4 +1,5 @@
 import './style.css';
+import snagle from './snegle.png';
 
 // Home page setup (minimal placeholder)
 const app = document.querySelector<HTMLDivElement>('#app');
@@ -15,6 +16,6 @@ if (app) {
       Browse this webpage to know more about me, or to make use of the bits and bobs 
       I have put here and there.
     </p>
-    <img src="src/snegle.png" alt="Just a snail" class="welcome-image" />
+    <img src="${snegle}" alt="Just a snail" class="welcome-image" />
   `;
 }
