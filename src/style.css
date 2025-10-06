@@ -2,14 +2,15 @@
    Base design tokens
    ========================= */
 :root {
-  --bg: #0f1012;
-  --text: #e9e9ee;
-  --muted: #b7b7c4;
-  --panel: #15161a;
-  --card: #1a1b21;
-  --border: #2a2b32;
-  --link: #8ea0ff;
-  --link-hover: #b4bfff;
+  --bg: #0f0f0f;          /* deep neutral background */
+  --text: #e8e8e8;        /* near-white text */
+  --muted: #a0a0a0;       /* subdued text */
+  --panel: #161616;       /* elevated surfaces */
+  --card: #1d1d1d;        /* cards, modals, etc. */
+  --border: #2a2a2a;      /* subtle outline */
+  --link: var(--accent);  /* same as accent for visual coherence */
+  --link-hover: #d04923;  /* slightly brighter version */
+  --accent: #b13b1d;      /* warm reddish brown – main color */
 
   --radius: 12px;
   --shadow-lg: 0 10px 30px rgba(0,0,0,0.35);
@@ -26,15 +27,15 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #f8f9fb;
-    --text: #17171b;
-    --muted: #5b5b67;
+    --bg: #fafafa;
+    --text: #181818;
+    --muted: #5e5e5e;
     --panel: #ffffff;
     --card: #ffffff;
-    --border: #e6e7ee;
-    --link: #3a57ff;
-    --link-hover: #223df8;
-    color-scheme: light;
+    --border: #e0e0e0;
+    --accent: #d44b27;     
+    --link: var(--accent);
+    --link-hover: #b13b1d;  
   }
 }
 
@@ -144,7 +145,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   width: 42px;
   height: 38px;
   border-radius: 10px;
-  background: var(--panel);
+  background: var(--accent);
   border: 1px solid var(--border);
   align-items: center;
   justify-content: center;
