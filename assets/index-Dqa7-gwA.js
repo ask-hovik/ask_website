@@ -1,4 +1,4 @@
-import"./style-Bo5Yka0r.js";var e=`/assets/snegle-yK8kS-up.png`,t=document.querySelector(`#app`);t&&(t.innerHTML=`
+import"./style-D_bsVT9t.js";var e=`/assets/snegle-yK8kS-up.png`,t=document.querySelector(`#app`);t&&(t.innerHTML=`
     <h1>Welcome</h1>
     <p>
       This is the personal web page of <strong>Ask Haugerud Hovik</strong>.  
