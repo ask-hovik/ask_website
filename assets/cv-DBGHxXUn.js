@@ -577,7 +577,7 @@ ul {
 					                        Ubiq Aerospace
 					                </h3>
 					                <h5 class="italic pull-right">
-					                        <span class="startDate">Invalid date</span>
+					                        <span class="startDate">09/2025</span>
 					                        <span class="endDate"> - Present</span>
 					                </h5>
 					            </div>
