@@ -1,4 +1,4 @@
-import"./style-D_bsVT9t.js";var e=document.querySelector(`#app`),t=`/`,n=new URL(t,window.location.origin),r=(e=>new URL(e,n).toString())(`recipes/index.json`),i=[],a=new Set;function o(){let t=Array.from(new Set(i.flatMap(e=>e.tags))).sort().map(e=>`<button class="chip ${a.has(e)?`chip--active`:``}" data-tag="${e}">${e}</button>`).join(``),n=[...i].filter(e=>a.size===0||Array.from(a).every(t=>e.tags.includes(t))).map(e=>`
+import"./style-CQnfL4Ia.js";var e=document.querySelector(`#app`),t=`/`,n=new URL(t,window.location.origin),r=(e=>new URL(e,n).toString())(`recipes/index.json`),i=[],a=new Set;function o(){let t=Array.from(new Set(i.flatMap(e=>e.tags))).sort().map(e=>`<button class="chip ${a.has(e)?`chip--active`:``}" data-tag="${e}">${e}</button>`).join(``),n=[...i].filter(e=>a.size===0||Array.from(a).every(t=>e.tags.includes(t))).map(e=>`
       <li>
         <a class="recipe-link" href="#/${e.slug}">${e.title}</a>
         <div class="muted small">

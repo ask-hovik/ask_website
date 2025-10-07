@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Ask Hovik – Home</title>
-    <link rel="stylesheet" href="/style.css" />
-    <script type="module" crossorigin src="/assets/hikes-C6p2KG0y.js"></script>
+    <title>Portfolio – Drawings</title>
+    <script type="module" crossorigin src="/assets/portfolio-CtH6M0NF.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/style-CQnfL4Ia.js">
     <link rel="stylesheet" crossorigin href="/assets/style-gj0xXhx0.css">
+    <link rel="stylesheet" crossorigin href="/assets/portfolio-zB8EWa2m.css">
   </head>
   <body>
     <header class="site-header">
@@ -36,14 +36,16 @@
         <a href="./portfolio.html">Drawing Portfolio</a>
       </nav>
     </header>
+    <main class="portfolio-page">
+      <div id="wall" class="polaroid-wall" aria-live="polite"></div>
 
-    <main id="app" class="container">
-      <h1>Hikes</h1>
-      <p>
-        Testing
-      </p>
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lb-close" aria-label="Close">×</button>
+        <img class="lb-image" alt="" />
+        <div class="lb-caption"></div>
+      </div>
     </main>
-
 
   </body>
 </html>
