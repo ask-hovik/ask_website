@@ -28,7 +28,14 @@
     "picture": "profile_pic.jpg"
   },
   "work": [
-        {
+      {
+      "company": "Ubiq Aerospace",
+      "position": "MECHANICAL ENGINEER",
+      "url": "https://www.ubiqaerospace.com/",
+      "startDate": "2025-20",
+      "summary": "Machanical engineering responsibility."
+    },
+    {
       "company": "Rocket Factory Augsburg",
       "position": "PROPULSION ENGINEERING INTERN",
       "url": "https://www.rfa.space/",

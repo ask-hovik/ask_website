@@ -574,6 +574,21 @@ ul {
 					        <section class="item">
 					            <div class="section-header clearfix">
 					                <h3 class="bold pull-left">
+					                        Ubiq Aerospace
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">Invalid date</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>MECHANICAL ENGINEER</h4>
+					
+					            <p class="summary">Machanical engineering responsibility.</p>
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
 					                        Rocket Factory Augsburg
 					                </h3>
 					                <h5 class="italic pull-right">
