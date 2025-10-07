@@ -1,6 +1,6 @@
 :root{
-  --bg: #0f1012;          /* your site background (dark) */
-  --card: #fff;           /* frame color */
+  /*--bg: #0f1012;          your site background (dark) */
+  /*--card: #fff;            frame color */
   --shadow: 0 12px 30px rgba(0,0,0,.35);
   --gutter: 18px;         /* base gap between columns/rows */
   --radius: 12px;
