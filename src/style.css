@@ -126,7 +126,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   top: 0;
   background: var(--panel);
   border-bottom: 1px solid var(--border);
-  z-index: 100;
+  z-index: 5000;
 }
 
 /* Brand in the middle; remove this element in HTML if you want *only* the hamburger */
