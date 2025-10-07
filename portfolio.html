@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Ask Hovik – Home</title>
-    <link rel="stylesheet" href="/style.css" />
+    <title>Portfolio – Drawings</title>
+    <link rel="stylesheet" href="/src/portfolio.css" />
   </head>
   <body>
     <header class="site-header">
@@ -33,12 +33,18 @@
         <a href="/portfolio.html">Drawing Portfolio</a>
       </nav>
     </header>
+    <main class="portfolio-page">
+      <div id="wall" class="polaroid-wall" aria-live="polite"></div>
 
-    <main id="app" class="container">
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lb-close" aria-label="Close">×</button>
+        <img class="lb-image" alt="" />
+        <div class="lb-caption"></div>
+      </div>
     </main>
 
-
     <script type="module" src="/src/nav.ts"></script>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/portfolio.ts"></script>
   </body>
 </html>
