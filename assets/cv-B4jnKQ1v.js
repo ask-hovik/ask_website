@@ -1,4 +1,4 @@
-import"./style-CQnfL4Ia.js";var e=`<!doctype html>
+import"./style-DkbAlwVw.js";var e=`<!doctype html>
 <html>
 	<head>
 	<meta charset="utf-8">
