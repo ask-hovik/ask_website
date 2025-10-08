@@ -1,0 +1,18 @@
+{
+  "title": "Kremet kyllingsuppe",
+  "time_minutes": 35,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Kyllingfilet", "amount": 2, "unit": "stk" },
+    { "item": "Smør", "amount": 1, "unit": "ss" },
+    { "item": "Purre", "amount": 0.5, "unit": "stk" },
+    { "item": "Rød paprika", "amount": 1, "unit": "stk" },
+    { "item": "Gulrot", "amount": 4, "unit": "stk" },
+    { "item": "Rød currypaste", "amount": 2, "unit": "ts" },
+    { "item": "Hønsebuljong", "amount": 1, "unit": "l" },
+    { "item": "Crème fraîche", "amount": 3, "unit": "dl" },
+    { "item": "Frisk persille, hakket", "amount": 1, "unit": "dl" }
+  ],
+  "steps": "1. Fres kyllingbitene raskt i smør i en gryte på høy varme i 2–3 minutter.\n\n2. Tilsett purre, paprika og gulrot, og fres videre i et par minutter. Ha i currypaste og rør i 1 minutt.\n\n3. Hell over kokende hønsebuljong, og la suppen småkoke i 5 minutter, eller til kyllingbitene er gjennomkokt.\n\n4. Rør inn crème fraîche og persille før servering.",
+  "tags": ["middag", "kylling", "suppe"]
+}

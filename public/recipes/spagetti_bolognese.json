@@ -1,5 +1,5 @@
 {
-  "title": "Spaghetti med kjøttsaus",
+  "title": "Spaghetti bolognese",
   "time_minutes": 40,
   "serves": 4,
   "ingredients": [
@@ -11,8 +11,9 @@
     { "item": "Hakkede tomater", "amount": 400, "unit": "g" },
     { "item": "Hvitløk", "amount": 2, "unit": "fedd" },
     { "item": "Olivenolje", "amount": 2, "unit": "ss" },
-    { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
+    { "item": "Salt og pepper", "amount": 1, "unit": "ts" },
+    { "item": "Parmesan", "amount": 100, "unit": "g" }
   ],
-  "steps": "Kok spaghetti etter anvisning.\nStek kjøttdeig i olje, tilsett løk, gulrot og selleri i små terninger.\nHa i hvitløk og tomater, la koke 15 min.\nSmak til med salt og pepper.\nServer kjøttsaus over spaghettien.",
+  "steps": "Kok spaghetti etter anvisning.\nStek kjøttdeig i olje, tilsett løk, gulrot og selleri i små terninger.\nHa i hvitløk og tomater, la koke 15 min.\nSmak til med salt og pepper.\nServer kjøttsaus over spaghettien. Rasp parmesan på toppen.",
   "tags": ["pasta", "middag"]
 }
