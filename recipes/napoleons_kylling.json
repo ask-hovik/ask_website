@@ -13,5 +13,5 @@
     { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
   ],
   "steps": "Brun kyllinglårene i olje i en gryte.\nTilsett hakket løk og hvitløk.\nHa i tomater og krydder.\nLa det hele småkoke under lokk i ca. 1 time til kyllingen er mør.\nServer med ris eller potetmos.",
-  "tags": ["gryte", "middag"]
+  "tags": ["gryte", "middag", "kylling"]
 }

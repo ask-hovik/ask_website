@@ -1,19 +1,19 @@
 {
-  "title": "Gresk fiskerett a la bestefar",
+  "title": "Gresk-Italiensk fiskerett a la bestefar",
   "time_minutes": 50,
   "serves": 4,
   "ingredients": [
-    { "item": "Steinbitfilet (eller annen hvit fisk)", "amount": 600, "unit": "g" },
+    { "item": "Steinbitfilet", "amount": 600, "unit": "g" },
     { "item": "Poteter", "amount": 600, "unit": "g" },
     { "item": "Hakkede tomater", "amount": 400, "unit": "g" },
     { "item": "Tomatpuré", "amount": 2, "unit": "ss" },
     { "item": "Brødsmuler", "amount": 100, "unit": "g" },
-    { "item": "Hvitvin", "amount": 250, "unit": "ml" },
+    { "item": "Hvitvin (Retzinavin)", "amount": 250, "unit": "ml" },
     { "item": "Oliven", "amount": 100, "unit": "g" },
     { "item": "Reker, pillede", "amount": 500, "unit": "g" },
     { "item": "Olivenolje", "amount": 2, "unit": "ss" },
     { "item": "Salt og pepper", "amount": 1, "unit": "ts" }
   ],
-  "steps": "Forvarm ovnen til 235 °C.\nSkjær poteter i 5 mm skiver og legg i bunnen av en smurt ovnsform.\nFordel fiskebiter over, salt godt.\nHa over tomater og tomatpuré, strø på brødsmuler.\nDynk med hvitvin, ha over oliven og pepper.\nBak i ovn i 35 min.\nStrø reker på toppen rett før servering, pynt med persille.",
-  "tags": ["fisk", "middag", "ovn"]
+  "steps": "Forvarm ovnen til 235 °C.\nSkjær poteter i 5 mm skiver og legg i bunnen av en smurt ovnsform.\nFordel fiskebiter over, salt godt. Hvis steinbit ikke er tilgjengelig, kan også brosme, lysing, lyr fungere. \nHa over tomater og smør tomatpuré på hver av fiskebitene, strø på brødsmuler.\nDynk med hvitvin, ha over oliven og pepper.\nBak i ovn i 35 min.\nStrø reker på toppen rett før servering, pynt med persille.",
+  "tags": ["fisk", "middag", "ovn", "poteter"]
 }

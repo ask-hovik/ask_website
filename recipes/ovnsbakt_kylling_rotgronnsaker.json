@@ -1,0 +1,21 @@
+{
+  "title": "Ovnsbakt kylling med rotgrønnsaker",
+  "time_minutes": 90,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Kyllinglår eller kyllingbryst", "amount": 4, "unit": "stk" },
+    { "item": "Gulrot", "amount": 4, "unit": "stk" },
+    { "item": "Persillerot", "amount": 4, "unit": "stk" },
+    { "item": "Kålrot", "amount": 0.5, "unit": "stk" },
+    { "item": "Små poteter (gjerne perlepoteter)", "amount": 600, "unit": "g" },
+    { "item": "Appelsin", "amount": 2, "unit": "stk" },
+    { "item": "Hvitløksfedd", "amount": 2, "unit": "stk" },
+    { "item": "Olivenolje", "amount": 1, "unit": "dl" },
+    { "item": "Honning", "amount": 2, "unit": "ss" },
+    { "item": "Hakkede urter (f.eks. timian)", "amount": 4, "unit": "ss" },
+    { "item": "Salt", "amount": null, "unit": "" },
+    { "item": "Pepper", "amount": null, "unit": "" }
+  ],
+  "steps": "1. Sett ovnen på 180 grader. Skrell og del grønnsakene i staver eller grove biter. Potetene kan beholdes hele hvis de er små. Del appelsinene i båter eller tykke skiver.\n\n2. Vend grønnsakene og appelsinene i olivenolje, honning, salt, pepper og 2 ss av urtene i en stor ildfast form.\n\n3. Legg kyllinglårene oppå grønnsakene. Pensle kyllinglårene med olivenolje, krydre med salt, pepper og resten av urtene.\n\n4. Sett formen midt i ovnen og stek til kyllingen har en kjernetemperatur på 68 grader, ca. 45 minutter for store kyllinglår. Bruk steketermometer for perfekt resultat.",
+  "tags": ["middag", "kylling", "ovn"]
+}
