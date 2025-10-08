@@ -3,15 +3,15 @@
   "time_minutes": 70,
   "serves": 4,
   "ingredients": [
-    { "item": "Minced beef", "amount": 500, "unit": "g" },
-    { "item": "Kidney beans", "amount": 400, "unit": "g" },
-    { "item": "Onion", "amount": 1, "unit": "pc" },
-    { "item": "Garlic cloves", "amount": 2, "unit": "pc" },
-    { "item": "Crushed tomatoes", "amount": 400, "unit": "g" },
-    { "item": "Chili powder", "amount": 2, "unit": "tsp" },
-    { "item": "Cumin", "amount": 1, "unit": "tsp" },
-    { "item": "Salt", "amount": 1, "unit": "tsp" }
+    { "item": "Kjøttdeig", "amount": 500, "unit": "g" },
+    { "item": "Kidneynønner", "amount": 400, "unit": "g" },
+    { "item": "Løk", "amount": 1, "unit": "stk" },
+    { "item": "Hvitløk", "amount": 2, "unit": "fedd" },
+    { "item": "Hakkede tomater", "amount": 400, "unit": "g" },
+    { "item": "Chilipulver", "amount": 2, "unit": "ts" },
+    { "item": "Cumin", "amount": 1, "unit": "ts" },
+    { "item": "Salt", "amount": 1, "unit": "ts" }
   ],
-  "steps": "Sauté onion and garlic.\nBrown the beef.\nAdd spices, tomatoes, beans.\nSimmer 45–60 min.\nAdjust seasoning.",
-  "tags": ["middag", "gryte", "spicy"]
+  "steps": "Stek løk til den er blank. Legg i hvitløk mot slutten.\nBrun kjøttet.\nHa i krydder, tomater og bønner.\nLa småkoke i 45-60 min.\nSmak til med krydder.",
+  "tags": ["middag", "gryte", "spicy", "kjøttdeig"]
 }

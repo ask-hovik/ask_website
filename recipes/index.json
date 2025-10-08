@@ -22,16 +22,6 @@
     ]
   },
   {
-    "slug": "brod",
-    "title": "Brød (grunnoppskrift)",
-    "time_minutes": 150,
-    "serves": 2,
-    "tags": [
-      "brød",
-      "bakst"
-    ]
-  },
-  {
     "slug": "chili_con_carne",
     "title": "Chili con carne",
     "time_minutes": 70,
@@ -39,7 +29,8 @@
     "tags": [
       "middag",
       "gryte",
-      "spicy"
+      "spicy",
+      "kjøttdeig"
     ]
   },
   {
@@ -66,12 +57,33 @@
     ]
   },
   {
+    "slug": "brod",
+    "title": "Hvetebrød",
+    "time_minutes": 150,
+    "serves": 2,
+    "tags": [
+      "brød",
+      "bakst"
+    ]
+  },
+  {
     "slug": "hvit_saus",
     "title": "Hvit saus",
     "time_minutes": 15,
     "serves": 4,
     "tags": [
       "tilbehør"
+    ]
+  },
+  {
+    "slug": "kremet_kyllingsuppe",
+    "title": "Kremet kyllingsuppe",
+    "time_minutes": 35,
+    "serves": 4,
+    "tags": [
+      "middag",
+      "kylling",
+      "suppe"
     ]
   },
   {
@@ -93,6 +105,16 @@
       "sushi",
       "fisk",
       "ris"
+    ]
+  },
+  {
+    "slug": "speltbrod",
+    "title": "Maria Skappels hjemmebakte speltbrød uten elting",
+    "time_minutes": 135,
+    "serves": 6,
+    "tags": [
+      "brød",
+      "bakst"
     ]
   },
   {
@@ -159,8 +181,8 @@
     ]
   },
   {
-    "slug": "spagetti_med_kjottsaus",
-    "title": "Spaghetti med kjøttsaus",
+    "slug": "spagetti_bolognese",
+    "title": "Spaghetti bolognese",
     "time_minutes": 40,
     "serves": 4,
     "tags": [

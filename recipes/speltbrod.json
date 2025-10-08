@@ -1,0 +1,19 @@
+{
+  "title": "Maria Skappels hjemmebakte speltbrød uten elting",
+  "time_minutes": 135,
+  "serves": 6,
+  "ingredients": [
+    { "item": "Siktet speltmel", "amount": 650, "unit": "g" },
+    { "item": "Sammalt speltmel", "amount": 250, "unit": "g" },
+    { "item": "Solsikkekjerner", "amount": 60, "unit": "g" },
+    { "item": "Gresskarkjerner", "amount": 60, "unit": "g" },
+    { "item": "Havregryn", "amount": 50, "unit": "g" },
+    { "item": "Linfrø", "amount": 100, "unit": "g" },
+    { "item": "Vann (lunkent)", "amount": 1, "unit": "l" },
+    { "item": "Chiafrø", "amount": 50, "unit": "g" },
+    { "item": "Tørrgjær", "amount": 1, "unit": "pakke" },
+    { "item": "Salt", "amount": 1, "unit": "ss" }
+  ],
+  "steps": "1. Rør sammen alle ingrediensene til en løs deig. La deigen heve i cirka 30 minutter under et klede.\n\n2. Hell deigen over i to godt smurte former og strø over gresskarkjerner. La heve i cirka 45 minutter.\n\n3. Sett formene i ovnen og stek brødene på 225 grader i 40 minutter. Ta dem så ut av formene og stek opp ned på rist i 15-20 minutter til. Dette gjør at skorpen blir sprø og deilig.",
+  "tags": ["brød", "bakst"]
+}
