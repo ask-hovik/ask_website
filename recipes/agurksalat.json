@@ -1,0 +1,21 @@
+{
+  "title": "Agurksalat",
+  "time_minutes": 20,
+  "serves": 10,
+  "ingredients": [
+    { "item": "Agurk", "amount": 1, "unit": "stk" },
+    { "item": "Vann", "amount": 2, "unit": "ss" },
+    { "item": "Eddik, 7 % (eller eplecidereddik)", "amount": 2, "unit": "ss" },
+    { "item": "Sukker", "amount": 1, "unit": "ss" },
+    { "item": "Salt", "amount": 0.5, "unit": "ts" },
+    { "item": "Pepper", "amount": 0.25, "unit": "ts" }
+  ],
+  "steps": [
+    "Skjær agurk i tynne skiver med mandolin eller ostehøvel, og legg skivene i en bolle.",
+    "Ha vann, eddik, sukker, salt og pepper i et glass med lokk, og rist raskt sammen.",
+    "Hell laken over agurkskivene (eller bland laken først og hell over).",
+    "La agurksalaten stå minst 10-15 minutter før servering.",
+    "Valgfritt: dryss over finhakket dill hvis du serverer agurksalat til fisk."
+  ],
+  "tags": ["tilbehør"]
+}

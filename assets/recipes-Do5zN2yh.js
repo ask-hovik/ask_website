@@ -14,7 +14,7 @@ import"./style-DkbAlwVw.js";var e=document.querySelector(`#app`),t=`/`,n=new URL
     <ul class="recipe-list">
       ${n||`<li class='muted'>No recipes match the selected tags.</li>`}
     </ul>
-  `,e.querySelectorAll(`.chip`).forEach(e=>{e.addEventListener(`click`,()=>{let t=e.dataset.tag;a.has(t)?a.delete(t):a.add(t),o()})});let r=e.querySelector(`#clear-tags`);r&&r.addEventListener(`click`,()=>{a.clear(),o()})}function s(e){return e.split(/\n+/).map(e=>`<p>${c(e)}</p>`).join(``)}function c(e){return e.replace(/[&<>"']/g,e=>({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`})[e])}async function l(n){let r=`${t}recipes/${n}.json`,i;try{let e=await fetch(r);if(!e.ok)throw Error(`${e.status} ${e.statusText}`);i=await e.json()}catch(t){e.innerHTML=`
+  `,e.querySelectorAll(`.chip`).forEach(e=>{e.addEventListener(`click`,()=>{let t=e.dataset.tag;a.has(t)?a.delete(t):a.add(t),o()})});let r=e.querySelector(`#clear-tags`);r&&r.addEventListener(`click`,()=>{a.clear(),o()})}function s(e){return e.split(/\n+/).map(e=>`<p>${c(e).replace(/&lt;a href=&#39;(#[^&#]+)&#39;&gt;(.*?)&lt;\/a&gt;/g,`<a href='$1'>$2</a>`)}</p>`).join(``)}function c(e){return e.replace(/[&<>"']/g,e=>({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`})[e])}async function l(n){let r=`${t}recipes/${n}.json`,i;try{let e=await fetch(r);if(!e.ok)throw Error(`${e.status} ${e.statusText}`);i=await e.json()}catch(t){e.innerHTML=`
       <a href="#" class="btn recipe-back">← All recipes</a>
       <div class="card"><strong>Could not load recipe.</strong><br><span class="muted">${String(t)}</span></div>`,u();return}let a=i.ingredients.map(e=>`
       <tr><td>${e.item}</td><td>${e.amount}</td><td>${e.unit}</td></tr>
