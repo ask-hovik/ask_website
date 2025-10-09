@@ -1,0 +1,23 @@
+{
+  "title": "Italiensk pizzabunn",
+  "time_minutes": 90,
+  "serves": 4,
+  "ingredients": [
+    { "item": "Pizzamel tipo 00", "amount": 500, "unit": "g" },
+    { "item": "Tørrgjær", "amount": 2, "unit": "ts" },
+    { "item": "Olivenolje", "amount": 2, "unit": "ss" },
+    { "item": "Salt", "amount": 1, "unit": "ts" },
+    { "item": "Sukker", "amount": 1, "unit": "ts" },
+    { "item": "Temperert vann", "amount": 310, "unit": "g" }
+  ],
+  "steps": [
+    "Bland inn alle de tørre ingrediensene i en bolle.",
+    "Kna, og tilsett litt mer væske eller mel til du får en perfekt konsistens på deigen.",
+    "Legg litt mel på benken og hell ut deigen. Kna den sammen og legg i en bolle. Dekks med plastfolie og la heve i ca. 30 minutter til dobbel størrelse.",
+    "Kna deigen igjen og del opp i 4 like biter (ca. 190 g hver). Rull hver bit til en rund bolle.",
+    "Legg deigbollene på et oljet brett. Gni på litt temperert vann og dekk med plastfolie for å holde bunnen smidig og forhindre tørking av kantene.",
+    "Hev ute i ca. 20 minutter og sett i kjøleskapet. Deigen kan hvile flere timer eller forberedes dagen før bruk, men dette kan evt sløyfes.",
+    "Når pizzaen skal stekes: varm ovn til høy temperatur og bruk gjerne pizzastein for sprø bunn."
+  ],
+  "tags": ["pizza", "bakst", "middag"]
+}

@@ -76,6 +76,17 @@
     ]
   },
   {
+    "slug": "italiensk_pizzabunn",
+    "title": "Italiensk pizzabunn",
+    "time_minutes": 90,
+    "serves": 4,
+    "tags": [
+      "pizza",
+      "bakst",
+      "middag"
+    ]
+  },
+  {
     "slug": "kremet_kyllingsuppe",
     "title": "Kremet kyllingsuppe",
     "time_minutes": 35,
