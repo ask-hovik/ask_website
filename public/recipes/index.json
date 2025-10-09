@@ -1,5 +1,14 @@
 [
   {
+    "slug": "agurksalat",
+    "title": "Agurksalat",
+    "time_minutes": 20,
+    "serves": 10,
+    "tags": [
+      "tilbehør"
+    ]
+  },
+  {
     "slug": "bakt_hvit_fisk",
     "title": "Bakt hvit fisk",
     "time_minutes": 30,
@@ -161,6 +170,16 @@
     ]
   },
   {
+    "slug": "pannestekt_orret",
+    "title": "Pannestekt ørret med rømmesaus og agurksalat",
+    "time_minutes": 30,
+    "serves": 3,
+    "tags": [
+      "fisk",
+      "middag"
+    ]
+  },
+  {
     "slug": "potet_og_brokkolisalat",
     "title": "Potet- og brokkolisalat",
     "time_minutes": 35,
@@ -203,7 +222,7 @@
   },
   {
     "slug": "spirer",
-    "title": "Spirer (enkelt tilbehør)",
+    "title": "Spiretilbehør",
     "time_minutes": 10,
     "serves": 2,
     "tags": [

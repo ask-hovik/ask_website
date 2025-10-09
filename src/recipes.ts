@@ -83,12 +83,13 @@ function renderList() {
 }
 
 function formatSteps(text: string) {
-  // Simple newline-to-paragraphs
+  // allow <a href='#/...'> links while escaping everything else
   return text
     .split(/\n+/)
-    .map(p => `<p>${escapeHtml(p)}</p>`)
+    .map(p => `<p>${escapeHtml(p).replace(/&lt;a href=&#39;(#[^&#]+)&#39;&gt;(.*?)&lt;\/a&gt;/g, "<a href='$1'>$2</a>")}</p>`)
     .join("");
 }
+
 
 function escapeHtml(s: string) {
   return s.replace(/[&<>"']/g, m => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[m]!));
