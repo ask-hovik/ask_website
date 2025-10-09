@@ -18,7 +18,8 @@ import"./style-DkbAlwVw.js";var e=document.querySelector(`#app`),t=`/`,n=new URL
       <a href="#" class="btn recipe-back">← All recipes</a>
       <div class="card"><strong>Could not load recipe.</strong><br><span class="muted">${String(t)}</span></div>`,u();return}let a=i.ingredients.map(e=>`
       <tr><td>${e.item}</td><td>${e.amount}</td><td>${e.unit}</td></tr>
-  `).join(``);if(e.innerHTML=`
+  `).join(``),o=Array.isArray(i.steps)?i.steps.join(`
+`):i.steps;if(e.innerHTML=`
     <a href="#" class="btn recipe-back">← All recipes</a>
 
     <h1>${c(i.title)}</h1>
@@ -34,7 +35,7 @@ import"./style-DkbAlwVw.js";var e=document.querySelector(`#app`),t=`/`,n=new URL
 
     <div class="card" style="margin-top: 1rem;">
       <h3>Method</h3>
-      ${s(i.steps)}
+      ${s(o)}
     </div>
   `,i.related?.length){let t=i.related.map(e=>`<a href="#/${e}" class="btn btn--small">${e.replace(/_/g,` `)}</a>`).join(` `);e.innerHTML+=`
       <div class="card" style="margin-top: 1rem;">
