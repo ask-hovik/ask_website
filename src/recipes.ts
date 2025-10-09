@@ -15,7 +15,7 @@ type RecipeFull = {
   time_minutes: number;
   serves: number;
   ingredients: Ingredient[];
-  steps: string;          // newline-separated text
+  steps: string | string[]; // newline-separated text or array of steps
   tags: string[];
   related?: string[];     // <-- add this
 };
@@ -115,6 +115,9 @@ async function renderDetail(slug: string) {
       <tr><td>${i.item}</td><td>${i.amount}</td><td>${i.unit}</td></tr>
   `).join("");
 
+  const stepsText = Array.isArray(data.steps) ? data.steps.join("\n") : data.steps;
+
+
   app.innerHTML = `
     <a href="#" class="btn recipe-back">← All recipes</a>
 
@@ -131,10 +134,10 @@ async function renderDetail(slug: string) {
 
     <div class="card" style="margin-top: 1rem;">
       <h3>Method</h3>
-      ${formatSteps(data.steps)}
+      ${formatSteps(stepsText)}
     </div>
   `;
-  
+
   if (data.related?.length) {
     const links = data.related
       .map(slug => `<a href="#/${slug}" class="btn btn--small">${slug.replace(/_/g, " ")}</a>`)
