@@ -18,9 +18,10 @@
     "Skrap skinnet på fisken og skjær ut filetene. Tørk dem godt og krydre med salt og pepper. Vend i mel.",
     "Stek ørretfiletene i smør med skinnsiden ned først, ca. 3 minutter. Snu og stek på den andre siden.",
     "Ta ut fisken og behold stekefettet i pannen. Ha i rømme (eller crème fraîche) og rør til saus. La det putre et par minutter.",
-    "Bland sammen vann, eddik og sukker til agurksalat. Skjær agurken i tynne skiver og la dem trekke i laken. Se <a href='#/agurksalat'>agurksalat</a> for nærmere detalje.",
+    "Bland sammen vann, eddik og sukker til agurksalat. Skjær agurken i tynne skiver og la dem trekke i laken. Se for nærmere detalje.",
     "Legg fisk tilbake i sausen og la dem ligge i 1-2 minutter på lav varme, slik at fisken holder seg varm.",
     "Server ørretfiletene med sausen og agurksalat ved siden av."
   ],
-  "tags": ["fisk", "middag"]
+  "tags": ["fisk", "middag"],
+  "related": ["agurksalat"]
 }

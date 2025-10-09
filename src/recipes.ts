@@ -17,6 +17,7 @@ type RecipeFull = {
   ingredients: Ingredient[];
   steps: string;          // newline-separated text
   tags: string[];
+  related?: string[];     // <-- add this
 };
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
@@ -83,13 +84,12 @@ function renderList() {
 }
 
 function formatSteps(text: string) {
-  // allow <a href='#/...'> links while escaping everything else
+  // Simple newline-to-paragraphs
   return text
     .split(/\n+/)
-    .map(p => `<p>${escapeHtml(p).replace(/&lt;a href=&#39;(#[^&#]+)&#39;&gt;(.*?)&lt;\/a&gt;/g, "<a href='$1'>$2</a>")}</p>`)
+    .map(p => `<p>${escapeHtml(p)}</p>`)
     .join("");
 }
-
 
 function escapeHtml(s: string) {
   return s.replace(/[&<>"']/g, m => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[m]!));
@@ -134,9 +134,19 @@ async function renderDetail(slug: string) {
       ${formatSteps(data.steps)}
     </div>
   `;
-
-  wireBackLink();
-}
+  
+  if (data.related?.length) {
+    const links = data.related
+      .map(slug => `<a href="#/${slug}" class="btn btn--small">${slug.replace(/_/g, " ")}</a>`)
+      .join(" ");
+    app.innerHTML += `
+      <div class="card" style="margin-top: 1rem;">
+        <h3>Related recipes</h3>
+        ${links}
+      </div>`;
+  }
+    wireBackLink();
+  }
 
 function wireBackLink() {
   const back = app.querySelector<HTMLAnchorElement>('a[href="#"]');
