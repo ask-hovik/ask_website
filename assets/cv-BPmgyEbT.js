@@ -563,7 +563,7 @@ ul {
 					                <h3>Summary</h3>
 					                <div class="keyline"></div>
 					            </div>            <p class="summary">
-					                Mechanical and aerospace engineering student with extensive hands-on experience leading student rocketry teams, designing and testing bi-liquid rocket engines, and working in aircraft manufacturing environments.
+					                Mechanical engineer with aerospace specialisation, and extensive hands-on experience from rocket engine manufacturing, leading student rocketry teams, designing and testing bi-liquid rocket engines, and working in aircraft manufacturing environments.
 					            </p>
 					        </div>
 					<div class="container work-container">
@@ -583,7 +583,7 @@ ul {
 					            </div>
 					            <h4>MECHANICAL ENGINEER</h4>
 					
-					            <p class="summary">Machanical engineering responsibility.</p>
+					            <p class="summary">Mechanical engineering responsibility.</p>
 					
 					        </section>
 					        <section class="item">
